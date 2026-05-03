@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Make all AHFF nutrient pipe network buildings non-minifiable.
+
+    Sets <minifiable>false</minifiable> on every player-built AHFF
+    structure. They remain craftable (architect menu intact, can build
+    new ones), but once placed they CANNOT be picked up / installed
+    elsewhere via the standard install tool.
+
+    To move one, the player must deconstruct it (recovers ~75% of
+    costList materials) and rebuild at the new location with fresh
+    materials. Forces commitment to pipe network layout decisions.
+
+    Affects all 7 AHFF buildables:
+      - Nutrient Solution Dispenser
+      - Nutrient Solution Drain
+      - Nutrient Pipe (regular + underground)
+      - Nutrient Buffer Tank (Small)
+      - Nutrient Solution Tap
+      - Nutrient Solution Fermenter
+-->
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BreadMo_NutrientDispenser" or defName="BreadMo_NutrientDrain" or defName="BreadMo_NutrientPipe" or defName="BreadMo_NutrientPipeUnderground" or defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientTap" or defName="NutrientSolutionFermenter"]/building</xpath>
+        <value>
+            <minifiable>false</minifiable>
+        </value>
+    </Operation>
+</Patch>
