@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\3141472661\\source\\ancientmining\\ancientmining\\stonecutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\stonecutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\ancientmining\\autodeepdrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\autodeepdrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\ancientmining\\building_boringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\building_boringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\ancientmining\\projectile_shotgunadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\projectile_shotgunadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AncientMining||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoneCutter.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\StoneCutter.cs",
+              "RelativeDocumentMoniker": "AncientMining\\StoneCutter.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\StoneCutter.cs",
+              "RelativeToolTip": "AncientMining\\StoneCutter.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAlwIoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T06:26:21.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Building_BoringMachine.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\Building_BoringMachine.cs",
+              "RelativeDocumentMoniker": "AncientMining\\Building_BoringMachine.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\Building_BoringMachine.cs",
+              "RelativeToolTip": "AncientMining\\Building_BoringMachine.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAkwAkBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:40:20.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projectile_ShotgunAdaptor.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "RelativeDocumentMoniker": "AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "RelativeToolTip": "AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:40:13.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoDeepDrill.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\AutoDeepDrill.cs",
+              "RelativeDocumentMoniker": "AncientMining\\AutoDeepDrill.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\AutoDeepDrill.cs",
+              "RelativeToolTip": "AncientMining\\AutoDeepDrill.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAgwMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:39:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AncientMining",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\AncientMining.csproj",
+              "RelativeDocumentMoniker": "AncientMining\\AncientMining.csproj",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3141472661\\Source\\AncientMining\\AncientMining\\AncientMining.csproj",
+              "RelativeToolTip": "AncientMining\\AncientMining.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-13T05:39:30.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Ancient Mining Industry (HSK Patched)</name>
+	<authors>
+		<li>Bread MO</li>
+		<li>AobaKuma</li>
+		<li>HSK conversion: CarbineAction</li>
+	</authors>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>carbineaction.ancientminingindustry.hsk</packageId>
+	<description>
+All-in-one HSK-balanced fork of Ancient Mining Industry by Bread MO + AobaKuma.
+
+Player-craftable buildings (drilling rig, tunnel boring machine, ore dressing machine, conveyors, structural supports, mini turrets) are rebalanced to match HSK's true canonical building pattern from Core_SK/Defs/ThingDefs_Buildings/Buildings_Production_Hightech.xml — same as native HSK DeepDrill / Hemopump / etc.:
+
+- stuffCategories RuggedMetallic + costStuffCount (player picks SteelBar / Plasteel / etc., gets stuff variation on the visual)
+- HSK component pipeline (ComponentIndustrial / ElectronicComponents / Mechanism / ComponentSpacer for top tier)
+- Turret barrel-fuel filter swapped from raw Steel to SteelBar so reload jobs use a normal HSK haulable resource
+
+Ancient (loot/spawn) variants left untouched — Pacas Patches Compilation already covers those with HSK refined materials. This fork picks up where Pacas left off and uses the canonical stuffCategories pattern HSK uses for its own buildings.
+
+Drop-in replacement — incompatibleWith upstream so they can't double-load.
+Switch back to upstream Workshop version when not playing HSK.
+
+Credits to Bread MO + AobaKuma for the original mod, and Pacas for the Ancient* loot patches it complements.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>ceteam.combatextended</li>
+		<li>skyarkhangel.hsk</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>XMB.AncientMiningIndustry.MO</li>
+	</incompatibleWith>
+</ModMetaData>
