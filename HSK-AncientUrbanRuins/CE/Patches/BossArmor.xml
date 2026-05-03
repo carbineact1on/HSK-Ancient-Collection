@@ -28,14 +28,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_CompFlakSuit"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>21</ArmorRating_Sharp>
+			<ArmorRating_Sharp>8</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_CompFlakSuit"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>40</ArmorRating_Blunt>
+			<ArmorRating_Blunt>18</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
@@ -105,14 +105,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>18</ArmorRating_Sharp>
+			<ArmorRating_Sharp>9</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			<ArmorRating_Blunt>25</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
@@ -151,14 +151,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>18</ArmorRating_Sharp>
+			<ArmorRating_Sharp>9</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			<ArmorRating_Blunt>25</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
@@ -213,14 +213,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[@Name="AM_CataphractHelmet"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>22</ArmorRating_Sharp>
+			<ArmorRating_Sharp>12</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[@Name="AM_CataphractHelmet"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>50</ArmorRating_Blunt>
+			<ArmorRating_Blunt>30</ArmorRating_Blunt>
 		</value>
 	</Operation>
 
