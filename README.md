@@ -82,6 +82,29 @@ Full HSK conversion of **[Ancient Urban Ruins](https://steamcommunity.com/shared
 
 ⚠ `<incompatibleWith>XMB.AncientUrbanrUins.MO</incompatibleWith>` — disable the upstream Workshop version.
 
+### 🌱 HSK-AncientHydroponicFarmFacilities
+HSK-balanced fork of **[Ancient Hydroponic Farm Facilities](https://steamcommunity.com/sharedfiles/filedetails/?id=3075384838)** by MO. Player-craftable hydroponic farming setup (basins, sunlamps, nutrient pumps/dispensers/fermenters/tanks, pipe network) rebalanced to HSK material economy.
+
+#### Player buildings (~17 craftable)
+- Bulk Steel → SteelBar across all costLists
+- HSK component pipeline added by tier:
+  - **Hydroponic basins** (AncientHydro, DualHydroponicsBasin): + ElecComp 1, Mech 1
+  - **Sunlamp**: + ElecComp 2, Microchips 1, Uranium → DepletedUranium
+  - **Nutrient Pump / Tap / Drain**: + ElecComp 1, Mech 1
+  - **Storage Tank**: + ElecComp 1, Plasteel 10
+  - **Pipes (above + underground) / Feed/Outlet ports**: + Wire
+  - **Nutrient Dispenser** (large): + ElecComp 4, Mech 4, Microchips 2
+  - **Nutrient Solution Fermenter** (top tier): + ElecComp 6, Mech 6, Microchips 2
+
+#### Decorative loot crates (6)
+- Bulk Steel → SteelBar
+- Mod's custom HydroponicNutrientSolution / MealNutrientPaste / Cloth / DevilstrandCloth contents preserved
+
+#### Scenarios
+- ScenarioDef AF_Scenarios.xml scatter: Steel → SteelBar
+
+⚠ `<incompatibleWith>XMB.AncientHydroponicFarmFacilities.MO</incompatibleWith>` — disable the upstream Workshop version.
+
 ## Installation
 
 1. Clone or download this repo
@@ -99,6 +122,6 @@ Each conversion is a self-contained replacement of the upstream mod:
 
 ## Credits
 
-- Original mods: **Bread MO + AobaKuma** (Ancient Mining Industry), **MO** (Ancient Urban Ruins)
+- Original mods: **Bread MO + AobaKuma** (Ancient Mining Industry), **MO** (Ancient Urban Ruins, Ancient Hydroponic Farm Facilities)
 - HSK conversions: **CarbineAction**
 - Pacas Patches Compilation referenced for the AMI Ancient* loot patches
