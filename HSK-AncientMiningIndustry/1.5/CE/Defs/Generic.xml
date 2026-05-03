@@ -7,10 +7,10 @@
 		<label>autocannon shell</label>
 		<ammoTypes>
 			<Ammo_Autocannon_Canister>Bullet_40x311mmR_Canister</Ammo_Autocannon_Canister>
-			<Ammo_Autocannon_AP>Bullet_40x311mmR_AP</Ammo_Autocannon_AP>
-			<Ammo_Autocannon_Incendiary>Bullet_40x311mmR_Incendiary</Ammo_Autocannon_Incendiary>
-			<Ammo_Autocannon_HE>Bullet_40x311mmR_HE</Ammo_Autocannon_HE>
-			<Ammo_Autocannon_Sabot>Bullet_40x311mmR_Sabot</Ammo_Autocannon_Sabot>
+			<Ammo_40x311mmR_AP>Bullet_40x311mmR_AP</Ammo_40x311mmR_AP>
+			<Ammo_40x311mmR_Incendiary>Bullet_40x311mmR_Incendiary</Ammo_40x311mmR_Incendiary>
+			<Ammo_40x311mmR_HE>Bullet_40x311mmR_HE</Ammo_40x311mmR_HE>
+			<Ammo_40x311mmR_Sabot>Bullet_40x311mmR_Sabot</Ammo_40x311mmR_Sabot>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
