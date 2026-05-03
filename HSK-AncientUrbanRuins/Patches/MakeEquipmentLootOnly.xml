@@ -41,4 +41,33 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="AM_AI2A" or defName="AM_HemostaticAgent" or defName="AM_FirstAidKit" or defName="AM_Salewa" or defName="AM_Grizzly" or defName="AM_MetalbloodInjector" or defName="AM_AnalgesicRegenerationInjector" or defName="AM_CellRegenerationInjector" or defName="AM_EmptyBox"]/recipeMaker</xpath>
     </Operation>
+
+    <!-- Ancient Dismantling Workbench (loot/spawn only) + Small Fuel Generator (loot only) -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]/designationCategory</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]/costList</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_SmallGenerator"]/designationCategory</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_SmallGenerator"]/costList</xpath>
+    </Operation>
+
+    <!-- Electrical Box: tune to HSK/CE pattern (add Mechanism for industrial mech, Microchips for electronic control) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AM_ElectricalBox"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>100</SteelBar>
+                <ComponentIndustrial>3</ComponentIndustrial>
+                <ElectronicComponents>3</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Microchips>1</Microchips>
+                <Wire>8</Wire>
+            </costList>
+        </value>
+    </Operation>
 </Patch>

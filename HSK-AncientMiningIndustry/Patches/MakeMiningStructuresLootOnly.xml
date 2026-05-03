@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Make all Ancient Mining Industry structures loot/spawn-only.
+
+    Removes <designationCategory> + <costList> from every craftable AMI
+    building, so they no longer appear in the architect menu.
+
+    Buildings still:
+      - Spawn inside AMI scenarios (mining ruins / industrial wreckage)
+      - Drop materials from <killedLeavings> when destroyed
+      - Function normally if found intact (drills produce ore, etc.)
+      - Get decomposed at the Ancient Dismantling Workbench
+      - Sell to traders for silver
+
+    Affects: Automatic Drilling Rig, Tunnel Boring Machine, Ore Dressing
+    Machine, Mineral Conveyor, Mineral Outlet, Tunnel Structural Supports,
+    Electrical Equipment, Mini Shotgun Turret, rails + crossties.
+-->
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/designationCategory</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/costList</xpath>
+    </Operation>
+</Patch>
