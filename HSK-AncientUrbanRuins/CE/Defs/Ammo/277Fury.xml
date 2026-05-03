@@ -209,7 +209,7 @@
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -261,7 +261,7 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -315,7 +315,7 @@
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -375,7 +375,7 @@
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -427,7 +427,7 @@
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -479,7 +479,7 @@
 		<skillRequirements>
 			<Crafting>8</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
