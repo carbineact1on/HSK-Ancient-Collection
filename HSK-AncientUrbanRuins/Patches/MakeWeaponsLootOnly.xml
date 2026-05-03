@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Make all AUR weapons loot/enemy-drop only.
+
+    Removes <recipeMaker> from the AMGun abstract parent and from every
+    weapon that inherits from it. Without recipeMaker, RimWorld doesn't
+    auto-generate craft recipes - weapons disappear from all benches'
+    Bills menus (including the Ancient Dismantling Workbench).
+
+    Weapons still:
+      - Spawn on enemies (PawnKindDef equipment)
+      - Drop as loot from kills + raid carcasses + scenarios
+      - Generate in trader stock + quest rewards
+      - Fire and reload normally (CE patches add Verb_ShootCE + AmmoUser
+        independently of recipeMaker)
+      - Get decomposed at the Ancient Dismantling Workbench (those are
+        decomp recipes in Recipes_Production.xml, not auto-generated
+        from recipeMaker - unaffected by this patch)
+-->
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[@Name="AMGun" or @ParentName="AMGun"]/recipeMaker</xpath>
+    </Operation>
+</Patch>
