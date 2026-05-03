@@ -42,11 +42,11 @@
         <xpath>Defs/ThingDef[defName="AM_AI2A" or defName="AM_HemostaticAgent" or defName="AM_FirstAidKit" or defName="AM_Salewa" or defName="AM_Grizzly" or defName="AM_MetalbloodInjector" or defName="AM_AnalgesicRegenerationInjector" or defName="AM_CellRegenerationInjector" or defName="AM_EmptyBox"]/recipeMaker</xpath>
     </Operation>
 
-    <!-- Ancient Dismantling Workbench + Small Fuel Generator: deconstructable only.
-         Removes only designationCategory (keeps costList so deconstruction yields
-         ~75% of materials when found in ruins). -->
+    <!-- Ancient Dismantling Workbench + Small Fuel Generator + Rail/Crosstie/IndicatorLine
+         (AM_FLOOR floor tiles): deconstructable only. Removes only designationCategory
+         (keeps costList so deconstruction yields ~75% of materials when found in ruins). -->
     <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator"]/designationCategory</xpath>
+        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator" or defName="AM_Crosstie" or defName="AM_Rail" or defName="AM_IndicatorLine" or defName="AM_IndicatorLine_Yellow"]/designationCategory</xpath>
     </Operation>
 
     <!-- Electrical Box: full HSK industrial-tier tune (stats + costList + skill prereq) -->
