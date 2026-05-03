@@ -242,6 +242,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -318,6 +319,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -393,6 +395,7 @@
 		<costList>
 			<AM_ComponentWeapon>3</AM_ComponentWeapon>
 			<SteelBar>60</SteelBar>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -469,6 +472,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -545,6 +549,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -621,6 +626,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -697,6 +703,7 @@
 			<AM_ComponentWeapon>1</AM_ComponentWeapon>
 			<AM_227FURYComponents>1</AM_227FURYComponents>
 			<Plasteel>20</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -782,6 +789,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>60</SteelBar>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -855,6 +863,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>50</SteelBar>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -928,6 +937,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<WoodLog>30</WoodLog>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1001,6 +1011,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>40</SteelBar>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1075,6 +1086,7 @@
 			<AM_ComponentWeapon>3</AM_ComponentWeapon>
 			<SteelBar>60</SteelBar>
 			<Plasteel>10</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1160,6 +1172,7 @@
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>60</SteelBar>
 			<Plasteel>10</Plasteel>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1246,6 +1259,7 @@
 			<AM_ComponentWeapon>4</AM_ComponentWeapon>
 			<SteelBar>60</SteelBar>
 			<Plasteel>15</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1330,6 +1344,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>40</SteelBar>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1414,6 +1429,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<SteelBar>40</SteelBar>
+			<Rifle_Component>1</Rifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1487,6 +1503,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<WoodLog>35</WoodLog>
+			<Sniper_Component>1</Sniper_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1561,6 +1578,8 @@
 		<costList>
 			<AM_ComponentWeapon>5</AM_ComponentWeapon>
 			<Plasteel>50</Plasteel>
+			<AdvRifle_Component>1</AdvRifle_Component>
+			<Heavy_Component>1</Heavy_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1636,6 +1655,7 @@
 		<costList>
 			<AM_ComponentWeapon>4</AM_ComponentWeapon>
 			<SteelBar>70</SteelBar>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1722,6 +1742,7 @@
 		<costList>
 			<AM_ComponentWeapon>3</AM_ComponentWeapon>
 			<SteelBar>50</SteelBar>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1796,6 +1817,7 @@
 		<costList>
 			<AM_ComponentWeapon>3</AM_ComponentWeapon>
 			<SteelBar>50</SteelBar>
+			<Sniper_Component>1</Sniper_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1882,6 +1904,7 @@
 		<costList>
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<WoodLog>45</WoodLog>
+			<Sniper_Component>1</Sniper_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -1957,6 +1980,7 @@
 		<costList>
 			<AM_ComponentWeapon>4</AM_ComponentWeapon>
 			<SteelBar>50</SteelBar>
+			<Sniper_Component>1</Sniper_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -2033,6 +2057,7 @@
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<AM_338PrecisionComponents>1</AM_338PrecisionComponents>
 			<Plasteel>30</Plasteel>
+			<Sniper_Component>1</Sniper_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -2121,6 +2146,7 @@
 			<AM_PKPMagazineComponents>1</AM_PKPMagazineComponents>
 			<Plasteel>10</Plasteel>
 			<WoodLog>30</WoodLog>
+			<Heavy_Component>1</Heavy_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -2197,6 +2223,7 @@
 			<AM_ComponentWeapon>2</AM_ComponentWeapon>
 			<AM_PKPMagazineComponents>1</AM_PKPMagazineComponents>
 			<Plasteel>15</Plasteel>
+			<Heavy_Component>1</Heavy_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -2272,6 +2299,7 @@
 		<costList>
 			<AM_ComponentWeapon>4</AM_ComponentWeapon>
 			<WoodLog>30</WoodLog>
+			<AdvRifle_Component>1</AdvRifle_Component>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
@@ -2357,6 +2385,7 @@
     <costList>
     <AM_ComponentWeapon>2</AM_ComponentWeapon>
 	<SteelBar>40</SteelBar>
+    <Weapon_Parts>2</Weapon_Parts>
     </costList>
     <verbs>
       <li>
@@ -2443,6 +2472,7 @@
     <costList>
     <AM_ComponentWeapon>2</AM_ComponentWeapon>
 	<SteelBar>40</SteelBar>
+    <Weapon_Parts>2</Weapon_Parts>
     </costList>
     <verbs>
       <li>
@@ -2518,6 +2548,7 @@
     <costList>
     <AM_ComponentWeapon>2</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Weapon_Parts>2</Weapon_Parts>
     </costList>
     <verbs>
       <li>
@@ -2594,6 +2625,7 @@
     <costList>
     <AM_ComponentWeapon>2</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Weapon_Parts>2</Weapon_Parts>
     </costList>
     <verbs>
       <li>
@@ -2671,6 +2703,7 @@
     <costList>
     <AM_ComponentWeapon>1</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Pistol_Component>1</Pistol_Component>
     </costList>
     <verbs>
       <li>
@@ -2747,6 +2780,7 @@
     <costList>
     <AM_ComponentWeapon>1</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Pistol_Component>1</Pistol_Component>
     </costList>
     <verbs>
       <li>
@@ -2822,6 +2856,7 @@
     <costList>
     <AM_ComponentWeapon>1</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Pistol_Component>1</Pistol_Component>
     </costList>
     <verbs>
       <li>
@@ -2897,6 +2932,7 @@
     <costList>
     <AM_ComponentWeapon>2</AM_ComponentWeapon>
 	<SteelBar>30</SteelBar>
+    <Pistol_Component>1</Pistol_Component>
     </costList>
     <verbs>
       <li>
