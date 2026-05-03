@@ -17,7 +17,7 @@
 
 	<!-- ==================== Ammo ========================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo40x311mmRBase">
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
 		<defName>Ammo_40x311mmR_Canister</defName>
 		<label>40x311mmR (Canister)</label>
 		<graphicData>
