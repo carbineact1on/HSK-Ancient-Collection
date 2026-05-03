@@ -186,6 +186,10 @@
         </placeWorkers>
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
         <uiIconScale>0.65</uiIconScale>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
 
@@ -481,6 +485,10 @@
         <tradeTags>
           <li>Television</li>
         </tradeTags>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
 
     </ThingDef>
 	

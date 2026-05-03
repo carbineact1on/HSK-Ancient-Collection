@@ -79,6 +79,10 @@
 		<killedLeavingsRanges>
 			<ChunkSlagSteel>3</ChunkSlagSteel>
 		</killedLeavingsRanges>
+		<researchPrerequisites>
+			<li>Fortifications</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 
 	<ThingDef ParentName="AM_Building_Atrium">
@@ -301,6 +305,10 @@
 		<killedLeavingsRanges>
 			<ChunkSlagSteel>2~3</ChunkSlagSteel>
 		</killedLeavingsRanges>
+		<researchPrerequisites>
+			<li>Fortifications</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 	
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -331,6 +339,10 @@
 		<killedLeavingsRanges>
 			<ChunkSlagSteel>3~4</ChunkSlagSteel>
 		</killedLeavingsRanges>
+		<researchPrerequisites>
+			<li>Fortifications</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 	
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -361,6 +373,10 @@
 		<killedLeavingsRanges>
 			<ChunkSlagSteel>1~2</ChunkSlagSteel>
 		</killedLeavingsRanges>
+		<researchPrerequisites>
+			<li>Fortifications</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 	
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -391,6 +407,10 @@
 		<killedLeavingsRanges>
 			<ChunkSlagSteel>1</ChunkSlagSteel>
 		</killedLeavingsRanges>
+		<researchPrerequisites>
+			<li>Fortifications</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 	
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -418,6 +438,10 @@
 		<costList>
 			<SteelBar>40</SteelBar>
 		</costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 	
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1599,6 +1623,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1621,6 +1649,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1648,6 +1680,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1670,6 +1706,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1697,6 +1737,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1719,6 +1763,10 @@
         <costList>
             <SteelBar>40</SteelBar>
         </costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
     </ThingDef>
 
 	<ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
@@ -1741,6 +1789,10 @@
 		<costList>
 			<SteelBar>40</SteelBar>
 		</costList>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	
 	</ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Unloadable">

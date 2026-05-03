@@ -220,6 +220,10 @@
         <li>ShelfSmall</li>
       </relatedBuildCommands>
     </building>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
   </ThingDef>
   
   
@@ -258,6 +262,10 @@
         <li>ShelfSmall</li>
       </relatedBuildCommands>
     </building>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
   </ThingDef>
 
 
@@ -315,6 +323,10 @@
         <li>ShelfSmall</li>
       </relatedBuildCommands>
     </building>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
   </ThingDef>
   
    <ThingDef ParentName="AM_StorageShelfBase">
@@ -365,6 +377,10 @@
         </extraGraphic>
       </li>
     </comps>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	
   </ThingDef>
 
 </Defs>
