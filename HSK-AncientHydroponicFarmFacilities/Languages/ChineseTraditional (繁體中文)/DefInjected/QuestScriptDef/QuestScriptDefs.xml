@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: questDescription(askerIsNull==true)->You learned that an ancient building has been discovered nearby, which is said to be an ancient cotton farm. You can break into it to obtain loot -->
+  <Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->你得知附近發現了一處古老建筑，據說是一處遠古棉花農場。你可以闖入其中獲取戰利品</Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questDescription->[asker_nameDef] told us that [asker_pronoun] discovered an ancient cotton farm. \n[asker_pronoun] couldn't spare anyone to investigate it, but [asker_pronoun] wanted us to go ahead and investigate and address any potential threats. -->
+  <Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.1>questDescription->[asker_nameDef] 告訴我們， [asker_pronoun]發現了一處遠古棉花農場。 \n[asker_pronoun] 希望我們前去探查并解決其中可能存在的威脅。</Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.1>
+  <!-- EN: questName->Explore damaged ancient cotton farm -->
+  <Ambuscade_damaged_ancient_cotton_farm.questNameRules.rulesStrings.0>questName->損壞的遠古棉花農場探索</Ambuscade_damaged_ancient_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Ambuscade_damaged_ancient_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the farm had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，農場內的物資被其他人掠奪。任務[resolvedQuestName]已經過期</Ambuscade_damaged_ancient_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.name>asker</Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.name>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.label>任務已過期：[resolvedQuestName]</Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.text>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription(askerIsNull==true)->You learned that an ancient building has been discovered nearby, which is said to be an ancient devilstrand cotton farm. You can break into it to obtain loot. -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->你得知附近發現了一處古老建筑，據說是一處遠古惡魔菇農場。你可以闖入其中獲取戰利品</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questDescription->[asker_nameDef] told us that [asker_pronoun] discovered an ancient devilstrand cotton farm. \n[asker_pronoun] doesn't have time to investigate, but [asker_pronoun] wants us to assist in the investigation. \n[asker_nameDef] said we can freely take away the supplies from the farm. -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.1>questDescription->[asker_nameDef] 告訴我們， [asker_pronoun] 發現了一處遠古惡魔菇農場. \n[asker_pronoun] 希望我們去探查。</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.1>
+  <!-- EN: questName->Explore damaged ancient devilstrand cotton farm -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questNameRules.rulesStrings.0>questName->損壞的惡魔菇農場探索</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the farm had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.name>asker</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.name>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.label>任務已過期：[resolvedQuestName]</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.text>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription(askerIsNull==true)->You learned that an ancient building has been discovered nearby, which is said to be an ancient nutrient cream factory. You can break into it to obtain loot. -->
+  <Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->你得知附近發現了一處古老建筑，據說是一處遠古營養膏工廠。你可以闖入其中獲取戰利品</Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questDescription->Some distant noises made [asker_nameDef] notice an ancient building that looked like an abandoned factory. \n[asker_nameDef] wanted us to investigate the factory and [asker_pronoun] thought there might be some unknown threats inside the building. -->
+  <Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.1>questDescription->一些遙遠的噪音讓 [asker_nameDef] 注意到了一處遠古建筑，它看起來像是一處廢棄的工廠， \n[asker_nameDef]希望我們去工廠里調查 ，[asker_pronoun] 覺得這個建筑里可能有一些未知的威脅。</Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.1>
+  <!-- EN: questName(priority=1)->Explore discarded nutrient cream factory -->
+  <Ambuscade_discarded_nutrient_cream_factory.questNameRules.rulesStrings.0>questName(priority=1)->廢棄營養膏工廠探索</Ambuscade_discarded_nutrient_cream_factory.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Ambuscade_discarded_nutrient_cream_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the factory had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，工廠內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_discarded_nutrient_cream_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.name>asker</Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.name>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.label>Quest expired: [resolvedQuestName]</Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.text>截獲的通信表明，工廠內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription(askerIsNull==true)->You learned that an ancient building has been discovered nearby, which is said to be an ancient nutrient solution factory. You can break into it to obtain loot. -->
+  <Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->你得知附近發現了一處古老建筑，據說是一處遠古營養液工廠。你可以闖入其中獲取戰利品</Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questDescription->[asker_nameDef] told us that [asker_pronoun] had discovered an ancient nutrient solution factory on his trade route, and [asker_pronoun] was worried that his trade security would be threatened, so [asker_pronoun] hoped that we would go and solve it. -->
+  <Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.1>questDescription->[asker_nameDef]告訴我們， 在[asker_pronoun] 的貿易路線上發現了一處古老的營養液工廠,  [asker_pronoun]擔心自己的貿易安全受到威脅，[asker_pronoun] 希望我們前去解決。</Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.1>
+  <!-- EN: questName->Explore discarded nutrient solution factory -->
+  <Ambuscade_discarded_nutrient_solution_factory.questNameRules.rulesStrings.0>questName->廢棄營養液工廠探索</Ambuscade_discarded_nutrient_solution_factory.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Ambuscade_discarded_nutrient_solution_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the factory had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，工廠內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_discarded_nutrient_solution_factory.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.name>asker</Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.name>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.label>任務已過期：[resolvedQuestName]</Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.text>截獲的通信表明，工廠內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription(askerIsNull==true)->You learned that an ancient building has been discovered nearby, which is said to be an hidden ancient hydroponic farm. You can break into it to obtain loot. -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->你得知附近發現了一處古老建筑，據說是一處隱藏的遠古農場。你可以闖入其中獲取戰利品</Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questDescription->[asker_nameDef] has discovered a intact ancient agricultural site, which is located in a very hidden location and may contain some ancient agricultural technology.\n\n[asker_nameDef] hopes that we can go to that facility to obtain some relevant technology and share it with [asker_factionName]. -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.1>questDescription->[asker_nameDef]發現了一座完好無損的古代農業站點，它的位置非常隱蔽，可能包含著一些古代農業科技，\n\n[asker_nameDef] 希望我們前往那座設施獲得一些相關的科技.</Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.1>
+  <!-- EN: questName->Explore Hidden ancient hydroponic farm -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questNameRules.rulesStrings.0>questName->隱蔽遠古水培站點探索</Ambuscade_Hidden_ancient_hydroponic_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the farm had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.name>asker</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.name>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.label>任務已過期：[resolvedQuestName]</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.text>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription->You learned that an ancient building has been discovered nearby, which is said to be an ancient grain farm. You can break into it to obtain loot. -->
+  <Explore_damaged_ancient_grain_farm_A.questDescriptionRules.rulesStrings.0>questDescription->你得知附近發現了一處古老建筑，據說是一處遠古糧食農場。你可以闖入其中獲取戰利品。</Explore_damaged_ancient_grain_farm_A.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Explore damaged ancient grain farm -->
+  <Explore_damaged_ancient_grain_farm_A.questNameRules.rulesStrings.0>questName->損壞的遠古糧食農場探索</Explore_damaged_ancient_grain_farm_A.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Explore_damaged_ancient_grain_farm_A.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the farm had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Explore_damaged_ancient_grain_farm_A.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.label>任務已過期：[resolvedQuestName]</Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.label>
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.text>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.text>
+  
+  <!-- EN: questDescription->You learned that an ancient building has been discovered nearby, which is said to be an ancient grain farm. You can break into it to obtain loot. -->
+  <Explore_damaged_ancient_grain_farm_B.questDescriptionRules.rulesStrings.0>questDescription->你得知附近發現了一處古老建筑，據說是一處遠古糧食農場。你可以闖入其中獲取戰利品。</Explore_damaged_ancient_grain_farm_B.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Explore damaged ancient grain farm -->
+  <Explore_damaged_ancient_grain_farm_B.questNameRules.rulesStrings.0>questName->損壞的遠古糧食農場探索</Explore_damaged_ancient_grain_farm_B.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已過期：[resolvedQuestName]</Explore_damaged_ancient_grain_farm_B.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicated that supplies inside the farm had been looted by others. The quest [resolvedQuestName] has expired. -->
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Explore_damaged_ancient_grain_farm_B.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.label>任務已過期：[resolvedQuestName]</Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.label>
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.text>截獲的通信表明，農場內的物資被其他人洗劫一空。任務 [resolvedQuestName] 已經過期.</Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.text>
+  
+  <!-- EN: questDescription->Recently, you have noticed abnormal activities of hostile forces nearby. They seem to be building defensive fortifications on an ancient cotton farm. This behavior indicates the arrival of an invasion, and perhaps it is time to strike first. -->
+  <Informant_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->最近，你注意到附近敵對勢力的異常活動。他們似乎在一個古老的棉花農場上建造防御工事。這種行為無異于準備入侵，也許是時候先發制人了。</Informant_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied ancient cotton farm -->
+  <Informant_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>questName->被占據的遠古棉花農場</Informant_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Informant_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied grain farm mission,[siteFaction_name] move their stronghold to a more secluded location, and you lose all information about their stronghold. -->
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的棉花農場任務，[siteFaction_name]將他們的據點移動到一個更隱蔽的地方，你失去了關于他們據點的所有信息。</Informant_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Informant_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the grain farm!\n\nThe payment from [siteFaction_name] has arrived. -->
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n獎勵已送達。</Informant_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>任務失敗：[resolvedQuestName]</Informant_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Informant_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>你未能完成被占領的棉花農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息。</Informant_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>
+  
+  <!-- EN: questDescription->Recently, you have noticed abnormal activities of hostile forces nearby. They seem to be dispatching troops to an unknown ancient building. Your informant told you that it is an ancient grain farm, and the appearance of such enemy strongholds near your base makes you feel uneasy. Perhaps it is time to eliminate them. -->
+  <Informant_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>questDescription->最近，你注意到附近敵對勢力的異常活動。他們似乎在向一座未知的古代建筑派遣軍隊。你的線人告訴你，這是一個古老的糧食農場，在你的基地附近出現這樣的敵人據點讓你感到不安。也許是時候驅逐他們了。</Informant_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied ancient grain farm -->
+  <Informant_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>questName->被占據的遠古糧食農場</Informant_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Informant_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Informant_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied grain farm mission,[siteFaction_name] move their stronghold to a more secluded location, and you lose all information about their stronghold. -->
+  <Informant_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的棉花農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息。</Informant_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Informant_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Informant_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the grain farm!\n\nThe payment from [siteFaction_name] has arrived. -->
+  <Informant_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n獎勵已送達。</Informant_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Informant_Occupied_ancient_grain_farm.root.nodes.11.node.nodes.0.label>任務失敗：[resolvedQuestName]</Informant_Occupied_ancient_grain_farm.root.nodes.11.node.nodes.0.label>
+  <Informant_Occupied_ancient_grain_farm.root.nodes.11.node.nodes.0.text>你未能完成被占領的糧食農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息</Informant_Occupied_ancient_grain_farm.root.nodes.11.node.nodes.0.text>
+  
+  <!-- EN: questDescription->Our informant found an abandoned ancient monorail train system, with its end leading to a Devilstrand farm occupied by hostile forces. The informant told us that the hostile forces have built complete defense lines and terrifying turret groups on the outskirts of the farm. And often, some Devilstrands are transported out of the farm, and hostile forces seem to have been stationed here to produce Devilstrands. It's time to take action against them. -->
+  <Informant_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->我們的線人發現了一個廢棄的古代單軌列車系統，其末端通向被敵對勢力占領的惡魔菇農場。線人告訴我們，敵對勢力在農場外圍修建了完整的防線和可怕的炮塔群。一些惡魔菇正在被運出農場，敵對勢力似乎駐扎在這里生產蘑菇布。是時候對他們采取行動了。</Informant_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied devilstrand cotton farm -->
+  <Informant_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>questName->被占據的遠古惡魔菇農場</Informant_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied devilstrand cotton farm mission,[siteFaction_name] blew up the monorail system and destroyed known roads. -->
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的惡魔菇農場任務,[siteFaction_name] 炸毀了單軌列車系統，并阻斷了一切通往據點的道路。</Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the grain farm!\n\nThe payment from [siteFaction_name] has arrived. -->
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n的獎勵已送達。</Informant_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>Quest failed: [resolvedQuestName]</Informant_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Informant_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>你未能完成被占領的惡魔菇農場任務,[siteFaction_name] 炸毀了單軌列車系統，并阻斷了一切通往據點的道路</Informant_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>
+  
+  <!-- EN: questDescription->[asker_nameDef] told you that an ancient cotton farm occupied by hostile forces has been discovered nearby. \n[siteFaction_name] are building a defensive fortification, which poses a serious threat to [asker_faction_name] trade security. \n[asker_nameDef] hopes that we can completely eliminate the enemies inside. -->
+  <Request_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef] 告訴你，在附近發現了一處被敵對勢力占據的遠古棉花農場， \n[siteFaction_name] 在修筑防御工事，這個據點對[asker_faction_name] 的貿易安全造成了嚴重威脅， \n[asker_nameDef] 希望我們能把里面的敵人徹底清除。</Request_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied ancient cotton farm -->
+  <Request_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>questName->被占據的遠古棉花農場</Request_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Request_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Request_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied cotton farm mission,[siteFaction_name] move their stronghold to a more secluded location, and you lose all information about their stronghold. -->
+  <Request_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的棉花農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息。</Request_Occupied_ancient_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Request_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Request_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the ancient cotton farm!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <Request_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n來自[asker_faction_name]的獎勵已送達。</Request_Occupied_ancient_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>任務失敗：[resolvedQuestName]</Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>你未能完成被占領的棉花農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息。</Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>
+  
+  <!-- EN: questDescription->[asker_nameDef] tells you that an ancient grain farm has been discovered nearby, and [siteFaction_name] are stationed inside, seemingly treating it as an agricultural military composite stronghold.\n This stronghold poses a serious threat to the security of the surrounding area. [asker_nameDef] hopes that we can completely eliminate the enemies inside. -->
+  <Request_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef]告訴你，在附近發現了一處遠古糧食農場， [siteFaction_name] 正駐守在里面，似乎把它當成了一個農業軍事復合據點，這個據點對周邊的安全造成了嚴重威脅， [asker_nameDef] 希望我們能把里面的敵人徹底清除。</Request_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied ancient grain farm -->
+  <Request_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>questName->被占據的遠古糧食農場</Request_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Request_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Request_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied grain farm mission,[siteFaction_name] move their stronghold to a more secluded location, and you lose all information about their stronghold. -->
+  <Request_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的糧食農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息。</Request_Occupied_ancient_grain_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Request_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Request_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the grain farm!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <Request_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n來自[asker_faction_name]的獎勵已送達。</Request_Occupied_ancient_grain_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.label>Quest failed: [resolvedQuestName]</Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.label>
+  <Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.text>你未能完成被占領的糧食農場任務,[siteFaction_name] 將據點搬遷到更隱蔽的位置，你失去了他們據點所有的信息</Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.text>
+  
+  <!-- EN: questDescription->[asker_nameDef] tells you that [asker_pronoun] has found an abandoned monorail system, and on the track route, [asker_pronoun] has discovered an ancient Devilstrand farm occupied by [siteFaction_name]. [siteFaction_name] have established complete defensive fortifications and turret groups on the outskirts of the farm.\n This behavior is equivalent to declaring war. [asker_nameDef] has attempted to attack but suffered heavy losses. [asker_pronoun] hopes that we can pull out this heavily armed stronghold and avenge [asker_factionName] soldiers. -->
+  <Request_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef] 告訴你， [asker_pronoun]找到了一個廢棄的單軌列車系統， [asker_pronoun] 在軌道的路線上發現了一處被 [siteFaction_name] 占據的遠古惡魔菇農場. [siteFaction_name]在農場外圍建立了完備的防御工事與炮塔群。這種行為相當于在宣戰， [asker_nameDef] 試過進攻但損失慘重， [asker_pronoun] 希望我們能夠拔除這個全副武裝的據點，為 [asker_factionName] 士兵復仇。</Request_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Occupied devilstrand cotton farm -->
+  <Request_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>questName->被占據的遠古惡魔菇農場</Request_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Request_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You failed to complete the occupied devilstrand cotton farm mission,[siteFaction_name] blew up the monorail system and destroyed known roads. -->
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>你未能完成被占領的惡魔菇農場任務,[siteFaction_name] 炸毀了單軌列車系統，并阻斷了一切通往據點的道路。</Request_Occupied_devilstrand_cotton_farm.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</Request_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the devilstrand cotton farm!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>你擊敗了農場的守軍！\n\n來自[asker_faction_name]的獎勵已送達。</Request_Occupied_devilstrand_cotton_farm.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  
+  <!-- UNUSED -->
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>Quest failed: [resolvedQuestName]</Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>你未能完成被占領的惡魔菇農場任務,[siteFaction_name] 炸毀了單軌列車系統，并阻斷了一切通往據點的道路</Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>
+  
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient sun lamp -->
+  <AncientSunlamp.label>遠古太陽燈</AncientSunlamp.label>
+  <!-- EN: An ancient self-powered Sunlamp.Its shell is sturdy, and it is powered by a thermonuclear battery inside, providing a very long lifespan. Automatically turns itself off at night. -->
+  <AncientSunlamp.description>一種古老的自供電太陽燈。它的外殼很堅固，內部由熱核電池供電，使用壽命很長。夜間自動關閉。</AncientSunlamp.description>
+  <!-- EN: Off for plant resting period -->
+  <AncientSunlamp.comps.CompSchedule.offMessage>植物休眠期間自動關閉</AncientSunlamp.comps.CompSchedule.offMessage>
+  
+  <!-- EN: Damaged Sun lamp -->
+  <DamagedSunlamp.label>損壞的遠古太陽燈</DamagedSunlamp.label>
+  <!-- EN: An ancient self-powered Sunlamp. Its internal power supply is badly depleted, but it still emits a weak glow. -->
+  <DamagedSunlamp.description>一種古老的自供電太陽燈。它的內部電源嚴重耗盡，但仍然發出微弱的光芒。</DamagedSunlamp.description>
+  
+</LanguageData>

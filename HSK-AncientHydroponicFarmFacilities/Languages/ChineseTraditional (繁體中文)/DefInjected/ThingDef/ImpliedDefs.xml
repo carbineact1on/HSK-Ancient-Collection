@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 營養液分配器（藍圖） -->
+  <Blueprint_BreadMo_NutrientDispenser.label>營養液分配器 (藍圖)</Blueprint_BreadMo_NutrientDispenser.label>
+  
+  <!-- EN: 營養液進料口（藍圖） -->
+  <Blueprint_BreadMo_NutrientDrain.label>營養液進料口 (藍圖)</Blueprint_BreadMo_NutrientDrain.label>
+  
+  <!-- EN: 營養液管道（藍圖） -->
+  <Blueprint_BreadMo_NutrientPipe.label>營養液管道 (藍圖)</Blueprint_BreadMo_NutrientPipe.label>
+  
+  <!-- EN: 地下營養液管道（藍圖） -->
+  <Blueprint_BreadMo_NutrientPipeUnderground.label>地下營養液管道(藍圖)</Blueprint_BreadMo_NutrientPipeUnderground.label>
+  
+  <!-- EN: 營養液儲罐（藍圖） -->
+  <Blueprint_BreadMo_NutrientTankSmall.label>營養液儲罐(藍圖)</Blueprint_BreadMo_NutrientTankSmall.label>
+  
+  <!-- EN: 營養液龍頭（藍圖） -->
+  <Blueprint_BreadMo_NutrientTap.label>營養液龍頭 (藍圖)</Blueprint_BreadMo_NutrientTap.label>
+  
+  <!-- EN: 遠古水栽培植物盆（藍圖） -->
+  <Blueprint_Install_AncientHydro.label>Ancient hydroponics (blueprint)</Blueprint_Install_AncientHydro.label>
+  
+  <!-- EN: 遠古太陽燈（藍圖） -->
+  <Blueprint_Install_AncientSunlamp.label>遠古太陽燈 (blueprint)</Blueprint_Install_AncientSunlamp.label>
+  
+  <!-- EN: 營養液進料口（藍圖） -->
+  <Blueprint_Install_BreadMo_NutrientDrain.label>營養液進料口 (藍圖)</Blueprint_Install_BreadMo_NutrientDrain.label>
+  
+  <!-- EN: 營養液儲罐（藍圖） -->
+  <Blueprint_Install_BreadMo_NutrientTankSmall.label>營養液儲罐(藍圖)</Blueprint_Install_BreadMo_NutrientTankSmall.label>
+  
+  <!-- EN: 營養液龍頭（藍圖） -->
+  <Blueprint_Install_BreadMo_NutrientTap.label>營養液龍頭 (藍圖)</Blueprint_Install_BreadMo_NutrientTap.label>
+  
+  <!-- EN: 營養液發酵廠（藍圖） -->
+  <Blueprint_NutrientSolutionFermenter.label>營養液發酵廠 (藍圖)</Blueprint_NutrientSolutionFermenter.label>
+  
+  <!-- EN: 營養液分配器（建造中） -->
+  <Frame_BreadMo_NutrientDispenser.label>營養液分配器 (建造中)</Frame_BreadMo_NutrientDispenser.label>
+  <!-- EN: 營養液分配器，用于將營養膏加工并轉化為營養液，然后通過管道系統運輸營養液用于水培。 -->
+  <Frame_BreadMo_NutrientDispenser.description>營養液分配器，用于將營養膏加工并轉化為營養液，然后通過管道系統運輸營養液用于水培。</Frame_BreadMo_NutrientDispenser.description>
+  
+  <!-- EN: 營養液進料口（建造中） -->
+  <Frame_BreadMo_NutrientDrain.label>營養液進料口 (建造中)</Frame_BreadMo_NutrientDrain.label>
+  <!-- EN: 將瓶裝營養液倒進管網的水龍頭。 -->
+  <Frame_BreadMo_NutrientDrain.description>將瓶裝營養液倒進管網的水龍頭。</Frame_BreadMo_NutrientDrain.description>
+  
+  <!-- EN: 營養液管道（建造中） -->
+  <Frame_BreadMo_NutrientPipe.label>營養液管道 (建造中)</Frame_BreadMo_NutrientPipe.label>
+  <!-- EN: 輸送水培營養液的管道. -->
+  <Frame_BreadMo_NutrientPipe.description>輸送水培營養液的管道.</Frame_BreadMo_NutrientPipe.description>
+  
+  <!-- EN: 地下營養液管道（建造中） -->
+  <Frame_BreadMo_NutrientPipeUnderground.label>地下營養液管道(建造中)</Frame_BreadMo_NutrientPipeUnderground.label>
+  <!-- EN: 輸送水培營養液的地下管道. -->
+  <Frame_BreadMo_NutrientPipeUnderground.description>輸送水培營養液的地下管道.</Frame_BreadMo_NutrientPipeUnderground.description>
+  
+  <!-- EN: 營養液儲罐（建造中） -->
+  <Frame_BreadMo_NutrientTankSmall.label>營養液儲罐(建造中)</Frame_BreadMo_NutrientTankSmall.label>
+  <!-- EN: 用于緩沖的加壓營養液罐. -->
+  <Frame_BreadMo_NutrientTankSmall.description>用于緩沖的加壓營養液罐.</Frame_BreadMo_NutrientTankSmall.description>
+  
+  <!-- EN: 營養液龍頭（建造中） -->
+  <Frame_BreadMo_NutrientTap.label>營養液龍頭 (建造中)</Frame_BreadMo_NutrientTap.label>
+  <!-- EN: 將營養液注入瓶子的水龍頭。 -->
+  <Frame_BreadMo_NutrientTap.description>將營養液注入瓶子的水龍頭。</Frame_BreadMo_NutrientTap.description>
+  
+  <!-- EN: 營養液發酵廠（建造中） -->
+  <Frame_NutrientSolutionFermenter.label>營養液發酵廠 (建造中)</Frame_NutrientSolutionFermenter.label>
+  <!-- EN: 營養液發酵廠，用于在發酵池中處理一系列生食品或肥料，并將其分離以獲得營養液。 -->
+  <Frame_NutrientSolutionFermenter.description>營養液發酵廠，用于在發酵池中處理一系列生食品或肥料，并將其分離以獲得營養液。</Frame_NutrientSolutionFermenter.description>
+  
+</LanguageData>

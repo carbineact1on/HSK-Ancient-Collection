@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: nutrient solution dispenser -->
+  <BreadMo_NutrientDispenser.label>營養液分配器</BreadMo_NutrientDispenser.label>
+  <!-- EN: The nutrient solution dispenser is used to process and convert nutrient ointments into nutrient solutions, and then transport nutrient solutions for hydroponic cultivation through a pipeline system. -->
+  <BreadMo_NutrientDispenser.description>營養液分配器，用于將營養膏加工并轉化為營養液，然后通過管道系統運輸營養液用于水培。</BreadMo_NutrientDispenser.description>
+  
+  <!-- EN: nutrient solution fermenter -->
+  <NutrientSolutionFermenter.label>營養液發酵廠</NutrientSolutionFermenter.label>
+  <!-- EN: The  nutrient solution fermenter is used to process a series of raw food or fertilizers in a fermentation tank and separate them to obtain nutrient solution. -->
+  <NutrientSolutionFermenter.description>營養液發酵廠，用于在發酵池中處理一系列生食品或肥料，并將其分離以獲得營養液。</NutrientSolutionFermenter.description>
+  
+</LanguageData>

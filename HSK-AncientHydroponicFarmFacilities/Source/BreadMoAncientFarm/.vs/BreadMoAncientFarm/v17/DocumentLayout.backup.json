@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3075384838\\Source\\BreadMoAncientFarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\3075384838\\source\\breadmoancientfarm\\breadmoancientfarm\\compuseeffect_givequestrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|solutionrelative:breadmoancientfarm\\compuseeffect_givequestrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\3075384838\\source\\breadmoancientfarm\\breadmoancientfarm\\workgiver_fillnutrientfermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|solutionrelative:breadmoancientfarm\\workgiver_fillnutrientfermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompUseEffect_GiveQuestRandom.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\CompUseEffect_GiveQuestRandom.cs",
+              "RelativeDocumentMoniker": "BreadMoAncientFarm\\CompUseEffect_GiveQuestRandom.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\CompUseEffect_GiveQuestRandom.cs",
+              "RelativeToolTip": "BreadMoAncientFarm\\CompUseEffect_GiveQuestRandom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:26:02.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkGiver_FillNutrientFermenter.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "RelativeDocumentMoniker": "BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "RelativeToolTip": "BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:25:41.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

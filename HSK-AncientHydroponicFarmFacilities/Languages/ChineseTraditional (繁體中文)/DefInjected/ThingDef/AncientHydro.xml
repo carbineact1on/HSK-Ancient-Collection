@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Dual HydroponicsBasin -->
+  <AncientDualHydroponicsBasin.label>遠古雙層水栽培植物盆</AncientDualHydroponicsBasin.label>
+  <!-- EN: An ancient dual artificial nutrient bath for growing plants,Its core components have long been damaged, and only the sun lamps installed inside are still emitting weak light. -->
+  <AncientDualHydroponicsBasin.description>一個古老的用于種植植物的雙層水栽培盆，其核心部件早已損壞，只有安裝在里面的太陽燈仍在發出微弱的光。</AncientDualHydroponicsBasin.description>
+  
+  <!-- EN: Ancient hydroponics -->
+  <AncientHydro.label>遠古水栽培植物盆</AncientHydro.label>
+  <!-- EN: An ancient artificial nutrient bath for growing plants. It does not consume electricity, but its core components have already been damaged, and its efficiency is only half that of ordinary hydroponics. -->
+  <AncientHydro.description>一種古老的用于種植植物的人工水栽培盆。它不耗電，但它的核心部件已經損壞，效率只有普通水培的一半。</AncientHydro.description>
+  
+  <!-- EN: Damaged Ancient hydroponics -->
+  <DamagedHydro.label>損壞的遠古水栽培植物盆</DamagedHydro.label>
+  <!-- EN: An ancient artificial nutrient bath for growing plants,Its core components have long been damaged and are now a pile of useless scrap iron. -->
+  <DamagedHydro.description>一種古老的用于種植植物的人工水栽培盆，其核心部件早已損壞，現在是一堆無用的廢鐵。</DamagedHydro.description>
+  
+</LanguageData>

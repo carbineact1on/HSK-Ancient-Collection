@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient hydroponic techniques -->
+  <AncientHydroponicTechniques.label>古代水培技術</AncientHydroponicTechniques.label>
+  <!-- EN: Research on a hydroponic technique for using nutrient solution to ripen crops, including a pipeline system and two factory facilities. -->
+  <AncientHydroponicTechniques.description>利用營養液催熟作物的古代水培技術研究，包括管道系統和兩個工廠設施.</AncientHydroponicTechniques.description>
+
+</LanguageData>

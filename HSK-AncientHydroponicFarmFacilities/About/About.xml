@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Ancient Hydroponic Farm Facilities (HSK Patched)</name>
+	<author>MO - HSK conversion by CarbineAction</author>
+	<packageId>carbineaction.ancienthydroponicfarmfacilities.hsk</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+HSK-balanced fork of Ancient Hydroponic Farm Facilities by MO.
+
+Player-craftable hydroponic buildings, dispensers, fermenters, sunlamps, pumps, storage tanks, and pipes rebalanced to HSK material economy:
+
+FUNCTIONAL BUILDINGS (10):
+- Steel -&gt; SteelBar across all costLists (HSK refined alloy)
+- HSK component pipeline added by tier:
+  * Hydroponic basins, pumps, tanks: + ElectronicComponents + Mechanism
+  * Sunlamp: + ElectronicComponents 2 + Microchips 1, Uranium -&gt; DepletedUranium
+  * Nutrient Dispenser: + ElectronicComponents 4 + Mechanism 4 + Microchips 2
+  * Nutrient Fermenter (top-tier): + ElectronicComponents 6 + Mechanism 6 + Microchips 2
+  * Feed/Outlet ports: + Wire (small electrical)
+
+DECORATIVE LOOT CRATES (6):
+- Steel -&gt; SteelBar (HSK refined alloy)
+- Mod's custom HydroponicNutrientSolution / MealNutrientPaste / Cloth / DevilstrandCloth contents preserved
+
+Drop-in replacement - incompatibleWith upstream so they can't double-load.
+Switch back to upstream Workshop version when not playing HSK.
+
+Credit to MO for the original mod.
+	</description>
+		<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>skyarkhangel.hsk</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>XMB.AncientHydroponicFarmFacilities.MO</li>
+	</incompatibleWith>
+</ModMetaData>

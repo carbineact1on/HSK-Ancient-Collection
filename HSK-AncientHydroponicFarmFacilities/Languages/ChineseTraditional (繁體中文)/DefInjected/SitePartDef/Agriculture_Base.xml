@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Damaged ancient cotton farm -->
+  <damaged_ancient_cotton_farm_SitePart.label>損毀的棉花農場</damaged_ancient_cotton_farm_SitePart.label>
+  <!-- EN: A badly damaged ancient cotton farm, which had been looted by pirates. -->
+  <damaged_ancient_cotton_farm_SitePart.description>一個被海盜洗劫一空、損毀嚴重遠古棉花農場。</damaged_ancient_cotton_farm_SitePart.description>
+  
+  <!-- EN: Damaged ancient devilstrand cotton farm -->
+  <damaged_ancient_Devilstrand_farm_SitePart.label>損毀的惡魔菇農場</damaged_ancient_Devilstrand_farm_SitePart.label>
+  <!-- EN: A badly damaged ancient devilstrand cotton farm, which had been looted by pirates. -->
+  <damaged_ancient_Devilstrand_farm_SitePart.description>一個被海盜洗劫一空、損毀嚴重遠古惡魔菇農場。</damaged_ancient_Devilstrand_farm_SitePart.description>
+  
+  <!-- EN: Damaged ancient grain farm -->
+  <damaged_ancient_grain_farm_A_SitePart.label>損壞的遠古糧食農場</damaged_ancient_grain_farm_A_SitePart.label>
+  <!-- EN: A badly damaged old grain farm, which had been looted by pirates. -->
+  <damaged_ancient_grain_farm_A_SitePart.description>一個被海盜洗劫一空、損毀嚴重遠古糧食農場。</damaged_ancient_grain_farm_A_SitePart.description>
+  
+  <!-- EN: Damaged ancient grain farm -->
+  <damaged_ancient_grain_farm_B_SitePart.label>損壞的遠古糧食農場</damaged_ancient_grain_farm_B_SitePart.label>
+  <!-- EN: A badly damaged old grain farm, which had been looted by pirates. -->
+  <damaged_ancient_grain_farm_B_SitePart.description>一個被海盜洗劫一空、損毀嚴重遠古糧食農場。</damaged_ancient_grain_farm_B_SitePart.description>
+  
+  <!-- EN: Discarded nutrient cream factory -->
+  <discarded_nutrient_cream_factory_SitePart.label>廢棄營養膏工廠</discarded_nutrient_cream_factory_SitePart.label>
+  <!-- EN: A badly discarded nutrient cream factory, which had been looted by pirates. -->
+  <discarded_nutrient_cream_factory_SitePart.description>一個被海盜洗劫一空的廢棄營養膏工廠。</discarded_nutrient_cream_factory_SitePart.description>
+  
+  <!-- EN: Discarded nutrient solution factory -->
+  <discarded_nutrient_solution_factory_SitePart.label>廢棄的營養液工廠</discarded_nutrient_solution_factory_SitePart.label>
+  <!-- EN: A badly discarded nutrient solution factory, which had been looted by pirates. -->
+  <discarded_nutrient_solution_factory_SitePart.description>一個被海盜洗劫一空的廢棄營養液工廠。</discarded_nutrient_solution_factory_SitePart.description>
+  
+  <!-- EN: Heavily guarded -->
+  <Garrison_Site_L.label>戒備森嚴</Garrison_Site_L.label>
+  <!-- EN: Heavily guarded -->
+  <Garrison_Site_L.description>戒備森嚴</Garrison_Site_L.description>
+  
+  <!-- EN: Enemy activity -->
+  <Garrison_Site_S.label>有活動的敵人</Garrison_Site_S.label>
+  <!-- EN: Enemy activity -->
+  <Garrison_Site_S.description>有活動的敵人</Garrison_Site_S.description>
+  
+  <!-- EN: Hidden ancient hydroponic farm -->
+  <Hidden_ancient_hydroponic_farm_Site.label>隱藏的古老水培農場</Hidden_ancient_hydroponic_farm_Site.label>
+  <!-- EN: An ancient hydroponic farm that has been hidden for so long, we know very little about it. -->
+  <Hidden_ancient_hydroponic_farm_Site.description>一個隱藏了許久的古老水培農場，我們對它知之甚少。</Hidden_ancient_hydroponic_farm_Site.description>
+  
+  <!-- EN: Occupied ancient cotton farm -->
+  <occupied_ancient_cotton_farm_SitePart.label>被占據的棉花農場</occupied_ancient_cotton_farm_SitePart.label>
+  <!-- EN: An occupied ancient cotton farm with fortifications and enemy activity -->
+  <occupied_ancient_cotton_farm_SitePart.description>被占據的遠古棉花農場，有防御工事和敵人活動。</occupied_ancient_cotton_farm_SitePart.description>
+  
+  <!-- EN: Occupied ancient grain farm -->
+  <occupied_ancient_grain_farm_SitePart.label>被占據的遠古糧食農場</occupied_ancient_grain_farm_SitePart.label>
+  <!-- EN: An occupied ancient grain farm with fortifications and enemy activity. -->
+  <occupied_ancient_grain_farm_SitePart.description>被占據的遠古糧食農場，有防御工事和敵人活動。</occupied_ancient_grain_farm_SitePart.description>
+  
+  <!-- EN: Occupied devilstrand cotton farm -->
+  <occupied_devilstrand_cotton_farm_SitePart.label>被占領的惡魔菇農場</occupied_devilstrand_cotton_farm_SitePart.label>
+  <!-- EN: An occupied devilstrand cotton farm, heavily fortified, with a large number of defenses and a large number of enemies. -->
+  <occupied_devilstrand_cotton_farm_SitePart.description>一個被占領的惡魔菇農場，戒備森嚴，有大量的炮塔和大量的敵人。</occupied_devilstrand_cotton_farm_SitePart.description>
+  
+</LanguageData>
