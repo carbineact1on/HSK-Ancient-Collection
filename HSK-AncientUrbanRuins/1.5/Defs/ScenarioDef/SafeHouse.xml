@@ -34,7 +34,7 @@
 			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
-				<thingDef>Steel</thingDef>
+				<thingDef>SteelBar</thingDef>
 				<count>720</count>
 				<allowRoofed>True</allowRoofed>
 			</li>
@@ -107,7 +107,7 @@
 			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
-				<thingDef>Steel</thingDef>
+				<thingDef>SteelBar</thingDef>
 				<count>720</count>
 				<allowRoofed>True</allowRoofed>
 			</li>

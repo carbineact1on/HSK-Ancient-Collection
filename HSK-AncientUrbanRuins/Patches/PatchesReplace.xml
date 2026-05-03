@@ -9,7 +9,7 @@
             <costList>
               <Cloth>100</Cloth>
               <Plasteel>20</Plasteel>
-              <Steel>105</Steel>
+              <SteelBar>105</SteelBar>
               <ComponentIndustrial>3</ComponentIndustrial>
             </costList>
           </value>
@@ -21,7 +21,7 @@
             <costList>
               <Cloth>80</Cloth>
               <Plasteel>10</Plasteel>
-              <Steel>55</Steel>
+              <SteelBar>55</SteelBar>
               <ComponentIndustrial>3</ComponentIndustrial>
             </costList>
           </value>
@@ -33,7 +33,7 @@
             <costList>
               <Cloth>100</Cloth>
               <Plasteel>40</Plasteel>
-              <Steel>105</Steel>
+              <SteelBar>105</SteelBar>
               <ComponentIndustrial>5</ComponentIndustrial>
             </costList>
           </value>
@@ -45,7 +45,7 @@
             <costList>
               <Cloth>100</Cloth>
               <Plasteel>40</Plasteel>
-              <Steel>105</Steel>
+              <SteelBar>105</SteelBar>
               <ComponentIndustrial>5</ComponentIndustrial>
             </costList>
           </value>
@@ -56,7 +56,7 @@
           <value>
             <costList>
               <Plasteel>40</Plasteel>
-              <Steel>55</Steel>
+              <SteelBar>55</SteelBar>
               <ComponentIndustrial>2</ComponentIndustrial>
             </costList>
           </value>
@@ -67,7 +67,7 @@
           <value>
             <costList>
               <Plasteel>40</Plasteel>
-              <Steel>55</Steel>
+              <SteelBar>55</SteelBar>
               <ComponentSpacer>1</ComponentSpacer>
             </costList>
           </value>
@@ -79,7 +79,7 @@
             <costList>
               <Cloth>50</Cloth>
               <Plasteel>30</Plasteel>
-              <Steel>55</Steel>
+              <SteelBar>55</SteelBar>
             </costList>
           </value>
         </li>
@@ -678,7 +678,7 @@
                 <countRange>5~7</countRange>
               </li>
               <li Class="StockGenerator_SingleDef">
-                <thingDef>Steel</thingDef>
+                <thingDef>SteelBar</thingDef>
                 <countRange>100~150</countRange>
               </li>
               <li Class="StockGenerator_SingleDef">

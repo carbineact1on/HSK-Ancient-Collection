@@ -15,7 +15,7 @@
         <countRange>5~7</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Steel</thingDef>
+        <thingDef>SteelBar</thingDef>
         <countRange>100~150</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
