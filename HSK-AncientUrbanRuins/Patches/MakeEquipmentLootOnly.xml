@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Make all AUR weapons + clothing loot/enemy-drop only.
+    Make all AUR equipment + items loot/enemy-drop only.
 
-    Removes <recipeMaker> from the AMGun (weapons) and AM_ArmorMachineableBase
-    / AM_ArmorHelmetMakeableBase / AM_CataphractHelmet (apparel) abstract
-    parents and every concrete def that inherits from them. Without
-    recipeMaker, RimWorld doesn't auto-generate craft recipes - they
-    disappear from all benches' Bills menus.
+    Removes <recipeMaker> from:
+      - AMGun (all weapons - rifles/pistols/SMGs/snipers/LMGs)
+      - AM_ArmorMachineableBase / AM_ArmorHelmetMakeableBase /
+        AM_CataphractHelmet (all armor + helmets)
+      - 8 medical kits / stims (AI2A, Hemostatic, FirstAid, Salewa,
+        Grizzly, Metalblood, Analgesic, CellRegen)
+      - AM_EmptyBox
+
+    Without recipeMaker, RimWorld doesn't auto-generate craft recipes -
+    they disappear from all benches' Bills menus.
 
     Items still:
-      - Spawn on enemies (PawnKindDef equipment / apparel)
+      - Spawn on enemies (PawnKindDef equipment / apparel / inventory)
       - Drop as loot from kills + raid carcasses + scenarios
       - Generate in trader stock + quest rewards
-      - Function normally (weapons fire / armor protects - those stats
-        are independent of recipeMaker)
+      - Function normally (weapons fire / armor protects / kits heal -
+        those stats are independent of recipeMaker)
       - Get decomposed at Ancient Dismantling Workbench (separate
         RecipeDefs in Recipes_Production.xml - unaffected)
 
-    Buildings + items + materials remain craftable as the mod author
-    intended - this patch only targets equipment.
+    Buildings + raw materials (AM_AramidCloth, AM_UHMWPEPlate, etc.) +
+    custom components (AM_ComponentWeapon, etc.) + ammo recipes remain
+    craftable - this patch only targets equipment + consumable kits.
 -->
 <Patch>
     <!-- Weapons (AMGun parent + all AM_* rifles/pistols/SMGs/snipers) -->
@@ -29,5 +35,10 @@
     <!-- Armor + helmets (3 abstract bases + their inheritance chain) -->
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[@Name="AM_ArmorMachineableBase" or @ParentName="AM_ArmorMachineableBase" or @Name="AM_ArmorHelmetMakeableBase" or @ParentName="AM_ArmorHelmetMakeableBase" or @Name="AM_CataphractHelmet" or @ParentName="AM_CataphractHelmet"]/recipeMaker</xpath>
+    </Operation>
+
+    <!-- Medical kits + stims + empty box (8 useable items + AM_EmptyBox) -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_AI2A" or defName="AM_HemostaticAgent" or defName="AM_FirstAidKit" or defName="AM_Salewa" or defName="AM_Grizzly" or defName="AM_MetalbloodInjector" or defName="AM_AnalgesicRegenerationInjector" or defName="AM_CellRegenerationInjector" or defName="AM_EmptyBox"]/recipeMaker</xpath>
     </Operation>
 </Patch>
