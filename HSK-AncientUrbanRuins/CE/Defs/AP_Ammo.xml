@@ -42,9 +42,9 @@
 		<defName>Bullet_556x45mmNATO_SSAAP</defName>
 		<label>5.56mm NATO bullet (SSAAP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>6</damageAmountBase>
-			<armorPenetrationSharp>35</armorPenetrationSharp>
-			<armorPenetrationBlunt>99.18</armorPenetrationBlunt>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationSharp>18</armorPenetrationSharp>
+			<armorPenetrationBlunt>24</armorPenetrationBlunt>
 			<speed>227</speed>
 		</projectile>
 	</ThingDef>
