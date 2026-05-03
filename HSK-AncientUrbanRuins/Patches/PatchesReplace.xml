@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="AncientMarket_Libraray.PatchOperationConditionModSetting">
+    <math Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_AScompFD"]/costList</xpath>
+          <value>
+            <costList>
+              <Cloth>100</Cloth>
+              <Plasteel>20</Plasteel>
+              <Steel>105</Steel>
+              <ComponentIndustrial>3</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_MK4aConcealed"]/costList</xpath>
+          <value>
+            <costList>
+              <Cloth>80</Cloth>
+              <Plasteel>10</Plasteel>
+              <Steel>55</Steel>
+              <ComponentIndustrial>3</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_MK4aDefensive"]/costList</xpath>
+          <value>
+            <costList>
+              <Cloth>100</Cloth>
+              <Plasteel>40</Plasteel>
+              <Steel>105</Steel>
+              <ComponentIndustrial>5</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_CompFlakSuit"]/costList</xpath>
+          <value>
+            <costList>
+              <Cloth>100</Cloth>
+              <Plasteel>40</Plasteel>
+              <Steel>105</Steel>
+              <ComponentIndustrial>5</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]/costList</xpath>
+          <value>
+            <costList>
+              <Plasteel>40</Plasteel>
+              <Steel>55</Steel>
+              <ComponentIndustrial>2</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]/costList</xpath>
+          <value>
+            <costList>
+              <Plasteel>40</Plasteel>
+              <Steel>55</Steel>
+              <ComponentSpacer>1</ComponentSpacer>
+            </costList>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_BulletproofMask"]/costList</xpath>
+          <value>
+            <costList>
+              <Cloth>50</Cloth>
+              <Plasteel>30</Plasteel>
+              <Steel>55</Steel>
+            </costList>
+          </value>
+        </li>
+        <!-- 错误 -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_FlakMaterial"]/root/options</xpath>
+          <value>
+            <options>
+
+              <li>
+                <weight>0.1</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Hyperweave</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>10~25</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Synthread</li>
+                        <li>Uranium</li>
+                        <li>Steel</li>
+                        <li>Neutroamine</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>8~20</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+              <li>
+                <weight>0.35</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentSpacer</li>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~2</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <li>
+                <weight>0.5</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_OrdinaryWeapons"]/root/options</xpath>
+          <value>
+            <options>
+              <!--手枪 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Gun_Revolver</li>
+                        <li>Gun_Autopistol</li>
+                        <li>Gun_MachinePistol</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~2</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_AdvancedWeapons"]/root/options</xpath>
+          <value>
+            <options>
+              <!--轻武器 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Gun_BoltActionRifle</li>
+                        <li>Gun_PumpShotgun</li>
+                        <li>Gun_ChainShotgun</li>
+                        <li>Gun_HeavySMG</li>
+                        <li>Gun_LMG</li>
+                        <li>Gun_AssaultRifle</li>
+                        <li>Gun_SniperRifle</li>
+                        <li>Gun_Minigun</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Materials"]/root/options</xpath>
+          <value>
+            <options>
+              <!--高级零件 -->
+              <li>
+                <weight>0.35</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentSpacer</li>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~2</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--零件 -->
+              <li>
+                <weight>0.5</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!-- 复数材料 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Synthread</li>
+                        <li>Uranium</li>
+                        <li>Steel</li>
+                        <li>Neutroamine</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>8~20</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_LEGO"]/root/options</xpath>
+          <value>
+            <options>
+              <!--高级零件 -->
+              <li>
+                <weight>0.35</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentSpacer</li>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~2</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--零件 -->
+              <li>
+                <weight>0.5</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_ComputerAccessories"]/root/options</xpath>
+          <value>
+            <options>
+              <!--高级零件 -->
+              <li>
+                <weight>0.35</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentSpacer</li>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~2</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--零件 -->
+              <li>
+                <weight>0.5</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_MISC"]/root/options</xpath>
+          <value>
+            <options>
+              <!--情报 -->
+              <li>
+                <weight>0.25</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>AM_WayBill</li>
+                        <li>AM_IntelMap</li>
+                        <li>AM_ConfidentialIntelMapA</li>
+                        <li>AM_ConfidentialIntelMapB</li>
+                        <li>AM_DilapidatedMap</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!-- 神器 -->
+              <li>
+                <weight>0.05</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingSetMakerTagsToAllow>
+                        <li>PsychicAnimalPulser</li>
+                        <li>PsychicSoothePulser</li>
+                      </thingSetMakerTagsToAllow>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_MedicalSupplies"]/root/options</xpath>
+          <value>
+            <options>
+              <!--超高价值 -->
+              <li>
+                <weight>0.01</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>AM_IntegratedTorsoArmor</li>
+                        <li>AM_RampageParasite</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--医药 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>MedicineIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~3</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--药物 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Penoxycyline</li>
+                        <li>Neutroamine</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>3~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--魔鬼素 -->
+              <li>
+                <weight>0.15</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Luciferium</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>2~7</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Injector"]/root/options</xpath>
+          <value>
+            <options>
+              <!--医药 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>MedicineIndustrial</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~3</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--药物 -->
+              <li>
+                <weight>0.75</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Penoxycyline</li>
+                        <li>Neutroamine</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>3~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Collectible"]/root/options</xpath>
+          <value>
+            <options>
+              <!--常见奢侈品 -->
+              <li>
+                <weight>0.5</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ElephantTusk</li>
+                        <li>ThrumboHorn</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--多数奢侈品 -->
+              <li>
+                <weight>0.3</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Ambrosia</li>
+                        <li>Hyperweave</li>
+                        <li>Silver</li>
+                        <li>Gold</li>
+                        <li>Jade</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>10~20</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Tool"]/root/options</xpath>
+          <value>
+            <options>
+              <!--工具 -->
+              <li>
+                <weight>1</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>MeleeWeapon_Knife</li>
+                        <li>MeleeWeapon_BreachAxe</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_ElectronicProduct"]/root/options</xpath>
+          <value>
+            <options>
+              <!--零件 -->
+              <li>
+                <weight>0.45</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>ComponentIndustrial</li>
+                        <li>ComponentSpacer</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~3</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_PotatoChips"]/root/options</xpath>
+          <value>
+            <options>
+              <!--包装食物 -->
+              <li>
+                <weight>1</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>MealSurvivalPack</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~3</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Food"]/root/options</xpath>
+          <value>
+            <options>
+
+              <!--包装食物 -->
+              <li>
+                <weight>1</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>MealSurvivalPack</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>1~3</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+              <!--干肉饼 -->
+              <li>
+                <weight>0.25</weight>
+                <thingSetMaker Class="ThingSetMaker_Count">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>Pemmican</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>25~75</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingSetMakerDef[defName="AM_Beverages"]/root/options</xpath>
+          <value>
+            <options>
+              <!--饮料 -->
+              <li>
+                <weight>1</weight>
+                <thingSetMaker Class="ThingSetMaker_StackCount">
+                  <fixedParams>
+                    <filter>
+                      <thingDefs>
+                        <li>GoJuice</li>
+                        <li>Beer</li>
+                      </thingDefs>
+                    </filter>
+                    <countRange>3~5</countRange>
+                  </fixedParams>
+                </thingSetMaker>
+              </li>
+
+            </options>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/TraderKindDef[defName="AM_AncientLogisticsSystem"]/stockGenerators</xpath>
+          <value>
+            <stockGenerators>
+
+              <!-- Resources -->
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>1500~2000</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>5~7</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~150</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>100~200</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Synthread</thingDef>
+                <countRange>105~200</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Hyperweave</thingDef>
+                <countRange>10~30</countRange>
+              </li>
+              <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>100~200</countRange>
+              </li>
+              <li Class="StockGenerator_Tag">
+                <tradeTag>AM_Intel</tradeTag>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <countRange>1~2</countRange>
+              </li>
+
+
+
+              <!-- Pack turret apparel -->
+              <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
+                <thingDef>Apparel_PackTurret</thingDef>
+                <countRange>-1~2</countRange>                <!-- 50% chance for 1~2 -->
+              </li>
+
+              <!-- Buying -->
+              <li Class="StockGenerator_BuyExpensiveSimple" />
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>AM_SalvagePoint</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>ImplantEmpireCommon</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>ImplantEmpireRoyal</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>MusicalInstrument</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>UtilitySpecial</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>HiTechArmor</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+              </li>
+              <li Class="StockGenerator_BuyTradeTag">
+                <tag>HoraxWeapon</tag>
+              </li>
+              <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly">
+                <thingDef>Shell_Deadlife</thingDef>
+              </li>
+              <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly">
+                <thingDef>VoidSculpture</thingDef>
+              </li>
+              <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly">
+                <thingDef>Shard</thingDef>
+              </li>
+              <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly">
+                <thingDef>Bioferrite</thingDef>
+              </li>
+              <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly">
+                <thingDef>RevenantSpine</thingDef>
+              </li>
+
+            </stockGenerators>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PawnKindDef[defName="AncientSoldierBoss"]/weaponTags</xpath>
+          <value>
+            <weaponTags>
+              <li>IndustrialGunAdvanced</li>
+            </weaponTags>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PawnKindDef[defName="AncientSoldierBoss"]/fixedInventory</xpath>
+          <value>
+            <fixedInventory>
+              <GoJuice>1</GoJuice>
+              <MedicineIndustrial>3</MedicineIndustrial>
+            </fixedInventory>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PawnKindDef[defName="AncientMallGuards"]/weaponTags</xpath>
+          <value>
+            <weaponTags>
+              <li>IndustrialGunAdvanced</li>
+            </weaponTags>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PawnKindDef[defName="AncientMallGuards"]/fixedInventory</xpath>
+          <value>
+            <fixedInventory>
+              <GoJuice>2</GoJuice>
+              <MedicineIndustrial>3</MedicineIndustrial>
+            </fixedInventory>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PawnKindDef[defName="AncientSlaughter"]/fixedInventory</xpath>
+          <value>
+            <fixedInventory>
+              <GoJuice>2</GoJuice>
+              <MedicineIndustrial>3</MedicineIndustrial>
+            </fixedInventory>
+          </value>
+
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/PawnKindDef[defName="AM_Scavenger"]/fixedInventory</xpath>
+          <value>
+            <fixedInventory>
+              <MedicineHerbal>2</MedicineHerbal>
+              <MealSurvivalPack>6</MealSurvivalPack>
+            </fixedInventory>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="AM_DilapidatedMap" or defName="AM_DilapidatedMapB"
+        or defName="AM_ConfidentialIntelMapA" or defName="AM_IntelMap" or defName="AM_WayBill"
+        or defName="AM_ConfidentialIntelMapB"]/thingCategories</xpath>
+          <value>
+            <thingCategories>
+              <li>Books</li>
+            </thingCategories>
+          </value>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AM_PotatoChipsB" or defName="AM_PotatoChipsC" or defName="AM_PotatoChipsD" or defName="AM_PotatoChipsE" or defName="AM_PotatoChipsF" or defName="AM_MRE"
+		or defName="AM_CannedBraisedPorkbelly" or defName="AM_CannedHerring" or defName="AM_CannedPeas" or defName="AM_CannedStewedBeef" or defName="AM_DeliciousCannedBeef" or defName="AM_TsingtaoBeer" 
+		or defName="AM_Budweiser" or defName="AM_MilkBeer" or defName="AM_Coca" or defName="AM_Fanta" or defName="AM_Pepsi" or defName="AM_Sprite"]</xpath>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AM_BakingThermometer" or defName="AM_CPU" or defName="AM_AluminumSplint" or defName="AM_PelvicHammock" or defName="AM_PackagedCPU" or defName="AM_GPU"
+		or defName="AM_PackagedGPU" or defName="AM_HDD" or defName="AM_SSD" or defName="AM_CreditCard" or defName="AM_KeyCard" or defName="AM_ElectricalTape" 
+		or defName="AM_GameConsole" or defName="AM_OneLiterGlassAdhesive" or defName="AM_LEDX" or defName="AM_RadioIntercom" or defName="AM_TapeMeasure" or defName="AM_GoldenEgg" 
+		or defName="AM_GoldenRoosterStatue" or defName="AM_BrassLionStatue" or defName="AM_SICC" or defName="AM_BriefCase" or defName="AM_LEGO_GiantRockExcavator_NotOpen" 
+		or defName="AM_LEGO_HeavyCrane_NotOpen" or defName="AM_LEGO_LandmarkBuilding_NotOpen" or defName="AM_LEGO_LightCrane_NotOpen" or defName="AM_LEGO_MediumCrane_NotOpen"  
+		or defName="AM_LEGO_Palace_NotOpen" or defName="AM_EmptyBox" or defName="LEGO_GiantRockExcavator_Accomplish" or defName="LEGO_HeavyCrane_Accomplish" 
+		or defName="LEGO_LandmarkBuilding_Accomplish" or defName="LEGO_LightCrane_Accomplish" or defName="LEGO_MediumCrane_Accomplish" or defName="LEGO_Palace_Accomplish" or defName="UnfinishedLEGO"]</xpath>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AM_ComponentWeapon" or defName="AM_227FURYComponents" or defName="AM_338PrecisionComponents" or defName="AM_PKPMagazineComponents" or defName="AM_AramidCloth" or defName="AM_HeavyCompositePlate"
+		or defName="AM_UHMWPEPlate" or defName="AM_Spear68C" or defName="AM_Spear68A" or defName="AM_M5A3LT" or defName="AM_TKB68A" or defName="AM_AK68A" 
+		or defName="AM_MK68A" or defName="AM_RM68A" or defName="AM_MCX" or defName="AM_MCXC" or defName="AM_ADAR" or defName="AM_M4A" 
+		or defName="AM_M4ASOP" or defName="AM_M4C" or defName="AM_M42U" or defName="AM_AK101A" or defName="AM_ASVAL" 
+		or defName="AM_VSS" or defName="AM_DTMDR" or defName="AM_MK17A" or defName="AM_R11A"  
+		or defName="AM_SR25A" or defName="AM_Hunter" or defName="AM_M700A" or defName="AM_MK18M" 
+		or defName="AM_PKM" or defName="AM_PKP" or defName="AM_AVT" or defName="AM_MPX" or defName="AM_MPXL" or defName="AM_STM" or defName="AM_STMC" or defName="AM_APS" 
+		or defName="AM_Makarov" or defName="AM_FNHG" or defName="AM_CPHG"]</xpath>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AM_SurgicalBag" or defName="AM_BigSurgicalBag" or defName="AM_AI2A" or defName="AM_HemostaticAgent" or defName="AM_FirstAidKit" or defName="AM_Salewa"
+		or defName="AM_Grizzly" or defName="AM_AncientGrizzly" or defName="AM_MetalbloodInjector" or defName="AM_AnalgesicRegenerationInjector" or defName="AM_CellRegenerationInjector" or defName="AM_EssentialBalm" 
+		or defName="AM_Ibuprofen" or defName="AM_Antibiotic"]</xpath>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AM_VirutalMiner"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingCategoryDef[defName="AM_Manufactured" or defName="AM_Electronics" or defName="AM_Tool" or defName="AM_MedicalSupplies" or defName="AM_SpecialComp"]</xpath>
+        </li>
+
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="AM_DecomposingWeapons" or defName="AM_DecomposingWeaponsI" or defName="AM_DisassembleLightArmor" or defName="AM_DisassemblePolyethylenePlate" 
+		or defName="AM_DisassembleHeavyArmor"]</xpath>
+        </li>
+      </operations>
+    </math>
+  </Operation>
+</Patch>

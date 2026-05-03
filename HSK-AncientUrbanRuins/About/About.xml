@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Ancient Urban Ruins (HSK Patched)</name>
+	<author>MO - HSK conversion by CarbineAction</author>
+	<packageId>carbineaction.ancienturbanruins.hsk</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>ceteam.combatextended</li>
+		<li>zylle.MapDesigner</li>
+		<li>m00nl1ght.GeologicalLandforms</li>
+		<li>Uuugggg.ReplaceStuff</li>
+		<li>skyarkhangel.hsk</li>
+	</loadAfter>
+	<description>
+All-in-one HSK-balanced fork of Ancient Urban Ruins by MO.
+
+Player-craftable buildings and weapons rebalanced to match HSK's smelter-based economy:
+
+BUILDINGS (~119 craftable):
+- Raw &lt;Steel&gt; -&gt; &lt;SteelBar&gt; (HSK refined alloy) on every player-buildable def
+- Functional buildings (Generator, Workbench, Television, Electrical Box, Elevators, Virtual Miner) get HSK component pattern (ComponentIndustrial / ComponentSpacer / ElectronicComponents) where appropriate
+- Decorative buildings (signs, chess pieces, indicators, mall benches, etc.) get bulk Steel-&gt;SteelBar swap
+
+WEAPONS (~35 craftable):
+- Raw &lt;Steel&gt; -&gt; &lt;SteelBar&gt; on every craftable weapon
+- HSKRNRouter handles weapon-bench routing and crafting components automatically at runtime
+
+UNTOUCHED:
+- Apparel (7 items): already use AUR's custom AM_AramidCloth / AM_UHMWPEPlate / AM_HeavyCompositePlate materials - no Steel involved
+- Items (14 medical/LEGO): use Cloth / Neutroamine / MedicineHerbal - no Steel involved
+- Loot/spawn-only props (~150 buildings: ruins, trash, broken cars, signs etc.): no costList, can't be crafted, nothing to convert
+- CE compatibility: untouched (the original mod's /CE/ folder still works)
+
+Drop-in replacement - incompatibleWith upstream so they can't double-load.
+Switch back to upstream Workshop version when not playing HSK.
+
+Credits to MO for the original mod.
+	</description>
+	<incompatibleWith>
+		<li>XMB.AncientUrbanrUins.MO</li>
+	</incompatibleWith>
+</ModMetaData>
