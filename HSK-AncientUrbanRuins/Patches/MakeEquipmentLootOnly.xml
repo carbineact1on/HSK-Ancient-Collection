@@ -56,18 +56,36 @@
         <xpath>Defs/ThingDef[defName="AM_SmallGenerator"]/costList</xpath>
     </Operation>
 
-    <!-- Electrical Box: tune to HSK/CE pattern (add Mechanism for industrial mech, Microchips for electronic control) -->
+    <!-- Electrical Box: full HSK industrial-tier tune (stats + costList + skill prereq) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AM_ElectricalBox"]/statBases</xpath>
+        <value>
+            <statBases>
+                <MaxHitPoints>350</MaxHitPoints>
+                <WorkToBuild>3000</WorkToBuild>
+                <Flammability>1.0</Flammability>
+                <Beauty>-20</Beauty>
+                <Mass>220</Mass>
+            </statBases>
+        </value>
+    </Operation>
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="AM_ElectricalBox"]/costList</xpath>
         <value>
             <costList>
                 <SteelBar>100</SteelBar>
                 <ComponentIndustrial>3</ComponentIndustrial>
-                <ElectronicComponents>3</ElectronicComponents>
+                <ElectronicComponents>4</ElectronicComponents>
                 <Mechanism>1</Mechanism>
-                <Microchips>1</Microchips>
-                <Wire>8</Wire>
+                <Microchips>2</Microchips>
+                <Wire>10</Wire>
             </costList>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AM_ElectricalBox"]</xpath>
+        <value>
+            <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
         </value>
     </Operation>
 </Patch>
