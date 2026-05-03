@@ -46,6 +46,7 @@
 		</statBases>
 		<costList>
 			<AM_AramidCloth>65</AM_AramidCloth>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

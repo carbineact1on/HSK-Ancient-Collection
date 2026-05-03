@@ -51,6 +51,7 @@
 		<costList>
             <AM_AramidCloth>75</AM_AramidCloth>
 			<AM_UHMWPEPlate>4</AM_UHMWPEPlate>
+            <ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<thingCategories>
 			<li>ApparelArmor</li>
@@ -125,6 +126,7 @@
 		<costList>
             <AM_AramidCloth>45</AM_AramidCloth>
 			<AM_UHMWPEPlate>3</AM_UHMWPEPlate>
+            <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<thingCategories>
 			<li>ApparelArmor</li>
@@ -187,6 +189,8 @@
 		<costList>
             <AM_AramidCloth>75</AM_AramidCloth>
 			<AM_HeavyCompositePlate>2</AM_HeavyCompositePlate>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <SyntheticFibers>8</SyntheticFibers>
 		</costList>
 		<thingCategories>
 			<li>ApparelArmor</li>
