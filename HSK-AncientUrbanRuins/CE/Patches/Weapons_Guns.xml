@@ -121,7 +121,7 @@
 			<recoilAmount>2.47</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>0.8</warmupTime>
 			<range>48</range>
 			<burstShotCount>6</burstShotCount>
@@ -133,7 +133,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -170,7 +170,7 @@
 			<recoilAmount>2.42</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.3</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -181,7 +181,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -218,7 +218,7 @@
 			<recoilAmount>2.03</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_300AACBlackout_FMJ</defaultProjectile>
 			<warmupTime>1.1</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -230,7 +230,7 @@
 		<AmmoUser>
 			<magazineSize>30</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+			<ammoSet>AmmoSet_300AACBlackout</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -268,7 +268,7 @@
 			<recoilAmount>2.61</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.2</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -280,7 +280,7 @@
 		<AmmoUser>
 			<magazineSize>25</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -318,7 +318,7 @@
 			<recoilAmount>2.2</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
 			<range>48</range>
 			<burstShotCount>6</burstShotCount>
@@ -330,7 +330,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -367,7 +367,7 @@
 			<recoilAmount>2.13</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.1</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -378,7 +378,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -416,7 +416,7 @@
 			<recoilAmount>2.13</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -427,7 +427,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -464,7 +464,7 @@
 			<recoilAmount>2.03</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_300AACBlackout_FMJ</defaultProjectile>
 			<warmupTime>1.4</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -475,7 +475,7 @@
 		<AmmoUser>
 			<magazineSize>30</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+			<ammoSet>AmmoSet_300AACBlackout</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -512,7 +512,7 @@
 			<recoilAmount>2.03</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_300AACBlackout_FMJ</defaultProjectile>
 			<warmupTime>0.9</warmupTime>
 			<range>48</range>
 			<burstShotCount>10</burstShotCount>
@@ -524,7 +524,7 @@
 		<AmmoUser>
 			<magazineSize>60</magazineSize>
 			<reloadTime>4.9</reloadTime>
-			<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+			<ammoSet>AmmoSet_300AACBlackout</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>5</aimedBurstShotCount>
@@ -949,7 +949,7 @@
 			<recoilAmount>1.7</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.4</warmupTime>
 			<range>75</range>
 			<burstShotCount>3</burstShotCount>
@@ -960,7 +960,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>2</aimedBurstShotCount>
@@ -998,7 +998,7 @@
 			<recoilAmount>2.13</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
@@ -1009,7 +1009,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -1047,7 +1047,7 @@
 			<recoilAmount>1.49</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.2</warmupTime>
 			<range>75</range>
 			<soundCast>AM_Shot_762SD</soundCast>
@@ -1056,7 +1056,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
@@ -1092,7 +1092,7 @@
 			<recoilAmount>1.92</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.1</warmupTime>
 			<range>75</range>
 			<soundCast>AM_Shot_762SD</soundCast>
@@ -1101,7 +1101,7 @@
 		<AmmoUser>
 			<magazineSize>20</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
@@ -1137,7 +1137,7 @@
 			<recoilAmount>2.1</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.3</warmupTime>
 			<range>68</range>
 			<soundCast>AM_Shot_54R</soundCast>
@@ -1147,7 +1147,7 @@
 		<AmmoUser>
 			<magazineSize>10</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
@@ -1182,7 +1182,7 @@
 			<recoilAmount>1.97</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
 			<warmupTime>1.4</warmupTime>
 			<range>75</range>
 			<soundCast>Shot_SniperRifle</soundCast>
@@ -1192,7 +1192,7 @@
 		<AmmoUser>
 			<magazineSize>10</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+			<ammoSet>AmmoSet_277Fury</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
@@ -1373,7 +1373,7 @@
 			<recoilAmount>1.5</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_65x50mmSRArisaka_FMJ</defaultProjectile>
 			<warmupTime>1.1</warmupTime>
 			<range>55</range>
 			<burstShotCount>6</burstShotCount>
