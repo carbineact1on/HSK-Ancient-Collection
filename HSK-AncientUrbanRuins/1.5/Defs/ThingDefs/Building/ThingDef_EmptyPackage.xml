@@ -21,7 +21,11 @@
           <MarketValue>10</MarketValue>
         </statBases>
 		 <!--<designationCategory>AM_FLOOR</designationCategory>-->
-    </ThingDef>
+        <killedLeavings>
+        	<SteelBar>3</SteelBar>
+        	<ChunkSlagSteel>1</ChunkSlagSteel>
+        </killedLeavings>
+	</ThingDef>
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_Package">
         <defName>AM_LargeBackpack_Decoration</defName>

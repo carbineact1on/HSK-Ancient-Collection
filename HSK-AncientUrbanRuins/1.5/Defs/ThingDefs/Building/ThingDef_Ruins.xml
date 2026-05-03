@@ -18,14 +18,24 @@
 
     <ThingDef ParentName="AM_Ruins" Name ="AM_Ruins_Non_Rotatable" Abstract="True">
         <rotatable>false</rotatable>
-    </ThingDef>
+        <killedLeavings>
+        	<ChunkSlagSteel>4</ChunkSlagSteel>
+        	<SteelBar>10</SteelBar>
+        	<ComponentIndustrial>1</ComponentIndustrial>
+        </killedLeavings>
+	</ThingDef>
 
     <ThingDef ParentName="AM_Ruins" Name ="AM_Ruins_NonDetachable" Abstract="True">
         <building>
             <deconstructible>false</deconstructible>
             <alwaysDeconstructible>false</alwaysDeconstructible>
         </building>
-    </ThingDef>
+        <killedLeavings>
+        	<ChunkSlagSteel>4</ChunkSlagSteel>
+        	<SteelBar>10</SteelBar>
+        	<ComponentIndustrial>1</ComponentIndustrial>
+        </killedLeavings>
+	</ThingDef>
 
 
     <ThingDef Abstract="True" Name="AM_NonDeconstructibleAncientBuildingBase" ParentName="AM_Ruins">
@@ -39,7 +49,11 @@
         <statBases>
           <Flammability>0</Flammability>
         </statBases>
-    </ThingDef>
+        <killedLeavings>
+        	<ChunkSlagSteel>2</ChunkSlagSteel>
+        	<SteelBar>5</SteelBar>
+        </killedLeavings>
+	</ThingDef>
 
     <ThingDef Abstract="True" Name="AM_NonDeconstructibleAncientBuildingBase_Non_Rotatable" ParentName="AM_NonDeconstructibleAncientBuildingBase">
         <rotatable>false</rotatable>

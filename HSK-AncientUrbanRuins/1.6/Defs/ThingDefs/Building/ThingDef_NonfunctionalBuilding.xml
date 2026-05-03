@@ -29,7 +29,11 @@
 		     <deconstructible>false</deconstructible>
             <alwaysDeconstructible>false</alwaysDeconstructible>
         </building>
-    </ThingDef>
+        <killedLeavings>
+        	<SteelBar>3</SteelBar>
+        	<ChunkSlagSteel>1</ChunkSlagSteel>
+        </killedLeavings>
+	</ThingDef>
 	
     <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable" Name ="AM_Building_Atrium" Abstract="True">
         <building>
@@ -49,7 +53,11 @@
         <thingCategories>
 			<li>AM_Container</li>
 	  </thingCategories>
-    </ThingDef>
+		<killedLeavings>
+			<SteelBar>3</SteelBar>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
 	
    <ThingDef ParentName="AM_NonfunctionalBuilding_Impassable">
 		<defName>AM_ArmoredGate_invincible</defName>

@@ -16,6 +16,10 @@
 			<SteelBar>5</SteelBar>
 		</costList>
 		<rotatable>false</rotatable>
+		<killedLeavings>
+			<SteelBar>3</SteelBar>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
 	</ThingDef> 
 
     <ThingDef ParentName="AM_NonfunctionalBuilding_StreetPlate">
