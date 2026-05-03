@@ -15,12 +15,9 @@
 			<Ammo_556x45mmNATO_FMJ>Bullet_556x45mmNATO_FMJ</Ammo_556x45mmNATO_FMJ>
 			<Ammo_556x45mmNATO_AP>Bullet_556x45mmNATO_AP</Ammo_556x45mmNATO_AP>
 			<Ammo_556x45mmNATO_HP>Bullet_556x45mmNATO_HP</Ammo_556x45mmNATO_HP>
-			<Ammo_556x45mmNATO_Incendiary>Bullet_556x45mmNATO_Incendiary</Ammo_556x45mmNATO_Incendiary>
-			<Ammo_556x45mmNATO_HE>Bullet_556x45mmNATO_HE</Ammo_556x45mmNATO_HE>
-			<Ammo_556x45mmNATO_Sabot>Bullet_556x45mmNATO_Sabot</Ammo_556x45mmNATO_Sabot>
 			<Ammo_556x45mmNATO_SSAAP>Bullet_556x45mmNATO_SSAAP</Ammo_556x45mmNATO_SSAAP>
 		</ammoTypes>
-		<similarTo>AmmoSet_RifleIntermediate</similarTo>
+		<similarTo>AmmoSet_556x45mmNATO</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="556x45mmNATOBase">
@@ -58,7 +55,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SteelBar</li>
 					</thingDefs>
 				</filter>
 				<count>12</count>
@@ -66,7 +63,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Uranium</li>
+						<li>DepletedUranium</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -82,8 +79,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>Uranium</li>
+				<li>SteelBar</li>
+				<li>DepletedUranium</li>
 				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
