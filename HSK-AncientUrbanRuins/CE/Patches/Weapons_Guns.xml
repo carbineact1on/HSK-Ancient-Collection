@@ -1385,7 +1385,7 @@
 		<AmmoUser>
 			<magazineSize>25</magazineSize>
 			<reloadTime>4</reloadTime>
-			<ammoSet>AmmoSet_762x54mmR</ammoSet>
+			<ammoSet>AmmoSet_65x50mmSRArisaka</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>
