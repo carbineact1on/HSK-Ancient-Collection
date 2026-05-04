@@ -20,10 +20,7 @@
       - Nutrient Solution Fermenter
 -->
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="BreadMo_NutrientDispenser" or defName="BreadMo_NutrientDrain" or defName="BreadMo_NutrientPipe" or defName="BreadMo_NutrientPipeUnderground" or defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientTap" or defName="NutrientSolutionFermenter"]/building</xpath>
-        <value>
-            <minifiable>false</minifiable>
-        </value>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMo_NutrientDispenser" or defName="BreadMo_NutrientDrain" or defName="BreadMo_NutrientPipe" or defName="BreadMo_NutrientPipeUnderground" or defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientTap" or defName="NutrientSolutionFermenter"]/minifiedDef</xpath>
     </Operation>
 </Patch>

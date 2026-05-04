@@ -18,10 +18,7 @@
     rails + crossties.
 -->
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/building</xpath>
-        <value>
-            <minifiable>false</minifiable>
-        </value>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/minifiedDef</xpath>
     </Operation>
 </Patch>
