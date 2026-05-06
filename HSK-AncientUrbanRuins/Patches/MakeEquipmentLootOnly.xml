@@ -67,6 +67,14 @@
         </value>
     </Operation>
 
+    <!-- HSK: strip thingCategories from now-non-minifiable Ancient Dismantling Workbench
+         (Player.log warning surfaced once the minifiedDef IsNull patch above started
+         working: "is not minifiable yet has thing categories"). Only this def in the
+         12-def list ships with inline thingCategories. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]/thingCategories</xpath>
+    </Operation>
+
     <!-- Electrical Box: full HSK industrial-tier tune (stats + costList + skill prereq) -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="AM_ElectricalBox"]/statBases</xpath>
