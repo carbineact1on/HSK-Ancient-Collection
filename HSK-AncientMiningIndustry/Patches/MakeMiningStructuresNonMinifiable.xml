@@ -21,4 +21,10 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/minifiedDef</xpath>
     </Operation>
+
+    <!-- HSK: strip thingCategories from now-non-minifiable Mini Shotgun Turret
+         (Player.log warning: "is not minifiable yet has thing categories"). -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]/thingCategories</xpath>
+    </Operation>
 </Patch>

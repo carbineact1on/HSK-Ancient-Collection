@@ -16,7 +16,9 @@
 	<weaponTags>
     <li>Autopistol</li>
     </weaponTags>
-    <weaponMoney>200~800</weaponMoney>
+    <!-- HSK: bumped from 200~800 - cheapest weapon with Autopistol tag costs 675 in HSK,
+         scavenger could roll weaponless at the old min (Player.log warning). -->
+    <weaponMoney>700~1200</weaponMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <techHediffsChance>0.03</techHediffsChance>
     <techHediffsMoney>50~800</techHediffsMoney>

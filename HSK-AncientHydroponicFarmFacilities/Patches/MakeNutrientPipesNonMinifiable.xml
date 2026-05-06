@@ -23,4 +23,12 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="BreadMo_NutrientDispenser" or defName="BreadMo_NutrientDrain" or defName="BreadMo_NutrientPipe" or defName="BreadMo_NutrientPipeUnderground" or defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientTap" or defName="NutrientSolutionFermenter"]/minifiedDef</xpath>
     </Operation>
+
+    <!-- HSK: strip thingCategories from now-non-minifiable defs that ship with
+         <thingCategories> set (Player.log warning: "is not minifiable yet has
+         thing categories - could be confusing in thing filters"). Two AHFF defs
+         have inline thingCategories; rest inherit none. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientDispenser"]/thingCategories</xpath>
+    </Operation>
 </Patch>

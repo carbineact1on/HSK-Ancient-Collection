@@ -52,9 +52,19 @@
     <!-- All player-built AUR structures non-minifiable (deconstruct to relocate).
          Covers craftable + deconstructable-only buildings. Pawns can no longer
          uninstall + re-install elsewhere - to move, must deconstruct (recovers
-         ~75% of costList) and rebuild fresh at the new location. -->
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="AM_ElectricalBox" or defName="AM_Entrance_LargeElevator" or defName="AM_MaterialElevatorA" or defName="AM_MaterialElevatorB" or defName="AM_MaterialElevatorC" or defName="AM_MaterialElevatorD" or defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator" or defName="AM_Crosstie" or defName="AM_Rail" or defName="AM_IndicatorLine" or defName="AM_IndicatorLine_Yellow"]/minifiedDef</xpath>
+         ~75% of costList) and rebuild fresh at the new location.
+
+         The 12 target defs inherit <minifiedDef>MinifiedThing</minifiedDef> from
+         abstract parents (AM_NonfunctionalBuilding_Package, AM_NonfunctionalBuilding_Unloadable,
+         AM_PortalBase_SalvagePoint_Unloadable, etc.) - they don't have the field
+         inline. PatchOperationRemove on /minifiedDef therefore fails to find a node
+         (per Player.log). Switched to PatchOperationAdd with IsNull="True" which
+         injects an explicit null override that wins against inherited values. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AM_ElectricalBox" or defName="AM_Entrance_LargeElevator" or defName="AM_MaterialElevatorA" or defName="AM_MaterialElevatorB" or defName="AM_MaterialElevatorC" or defName="AM_MaterialElevatorD" or defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator" or defName="AM_Crosstie" or defName="AM_Rail" or defName="AM_IndicatorLine" or defName="AM_IndicatorLine_Yellow"]</xpath>
+        <value>
+            <minifiedDef IsNull="True" />
+        </value>
     </Operation>
 
     <!-- Electrical Box: full HSK industrial-tier tune (stats + costList + skill prereq) -->
