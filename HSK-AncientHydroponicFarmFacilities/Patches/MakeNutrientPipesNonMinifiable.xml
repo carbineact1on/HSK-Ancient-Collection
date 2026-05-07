@@ -26,9 +26,9 @@
 
     <!-- HSK: strip thingCategories from now-non-minifiable defs that ship with
          <thingCategories> set (Player.log warning: "is not minifiable yet has
-         thing categories - could be confusing in thing filters"). Two AHFF defs
-         have inline thingCategories; rest inherit none. -->
+         thing categories - could be confusing in thing filters"). Three AHFF
+         defs have inline thingCategories. -->
     <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientDispenser"]/thingCategories</xpath>
+        <xpath>Defs/ThingDef[defName="BreadMo_NutrientTankSmall" or defName="BreadMo_NutrientDispenser" or defName="NutrientSolutionFermenter"]/thingCategories</xpath>
     </Operation>
 </Patch>
