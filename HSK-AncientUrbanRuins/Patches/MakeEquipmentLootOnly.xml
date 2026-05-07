@@ -69,10 +69,17 @@
 
     <!-- HSK: strip thingCategories from now-non-minifiable Ancient Dismantling Workbench
          (Player.log warning surfaced once the minifiedDef IsNull patch above started
-         working: "is not minifiable yet has thing categories"). Only this def in the
-         12-def list ships with inline thingCategories. -->
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]/thingCategories</xpath>
+         working: "is not minifiable yet has thing categories").
+
+         Same inheritance trap as minifiedDef: thingCategories is inherited from
+         ParentName="BenchBase" (vanilla Core_SK), not declared inline. PatchOperationRemove
+         on /thingCategories therefore silently fails to find a node. Use PatchOperationAdd
+         with Inherit="False" to inject an empty list that drops the inherited entries. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]</xpath>
+        <value>
+            <thingCategories Inherit="False" />
+        </value>
     </Operation>
 
     <!-- Electrical Box: full HSK industrial-tier tune (stats + costList + skill prereq) -->
