@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Make all AUR equipment + items loot/enemy-drop only.
-
-    Removes <recipeMaker> from:
-      - AMGun (all weapons - rifles/pistols/SMGs/snipers/LMGs)
-      - AM_ArmorMachineableBase / AM_ArmorHelmetMakeableBase /
-        AM_CataphractHelmet (all armor + helmets)
-      - 8 medical kits / stims (AI2A, Hemostatic, FirstAid, Salewa,
-        Grizzly, Metalblood, Analgesic, CellRegen)
-      - AM_EmptyBox
-
-    Without recipeMaker, RimWorld doesn't auto-generate craft recipes -
-    they disappear from all benches' Bills menus.
-
-    Items still:
-      - Spawn on enemies (PawnKindDef equipment / apparel / inventory)
-      - Drop as loot from kills + raid carcasses + scenarios
-      - Generate in trader stock + quest rewards
-      - Function normally (weapons fire / armor protects / kits heal -
-        those stats are independent of recipeMaker)
-      - Get decomposed at Ancient Dismantling Workbench (separate
-        RecipeDefs in Recipes_Production.xml - unaffected)
-
-    Buildings + raw materials (AM_AramidCloth, AM_UHMWPEPlate, etc.) +
-    custom components (AM_ComponentWeapon, etc.) + ammo recipes remain
-    craftable - this patch only targets equipment + consumable kits.
--->
+<!-- Make all AUR equipment + items loot/enemy-drop only -->
 <Patch>
     <!-- Weapons (AMGun parent + all AM_* rifles/pistols/SMGs/snipers) -->
     <Operation Class="PatchOperationRemove">
@@ -49,17 +23,7 @@
         <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator" or defName="AM_Crosstie" or defName="AM_Rail" or defName="AM_IndicatorLine" or defName="AM_IndicatorLine_Yellow"]/designationCategory</xpath>
     </Operation>
 
-    <!-- All player-built AUR structures non-minifiable (deconstruct to relocate).
-         Covers craftable + deconstructable-only buildings. Pawns can no longer
-         uninstall + re-install elsewhere - to move, must deconstruct (recovers
-         ~75% of costList) and rebuild fresh at the new location.
-
-         The 12 target defs inherit <minifiedDef>MinifiedThing</minifiedDef> from
-         abstract parents (AM_NonfunctionalBuilding_Package, AM_NonfunctionalBuilding_Unloadable,
-         AM_PortalBase_SalvagePoint_Unloadable, etc.) - they don't have the field
-         inline. PatchOperationRemove on /minifiedDef therefore fails to find a node
-         (per Player.log). Switched to PatchOperationAdd with IsNull="True" which
-         injects an explicit null override that wins against inherited values. -->
+<!-- All player-built AUR structures non-minifiable (deconstruct to relocate) -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="AM_ElectricalBox" or defName="AM_Entrance_LargeElevator" or defName="AM_MaterialElevatorA" or defName="AM_MaterialElevatorB" or defName="AM_MaterialElevatorC" or defName="AM_MaterialElevatorD" or defName="AM_AncientDismantlingWorkbench" or defName="AM_SmallGenerator" or defName="AM_Crosstie" or defName="AM_Rail" or defName="AM_IndicatorLine" or defName="AM_IndicatorLine_Yellow"]</xpath>
         <value>
@@ -67,14 +31,7 @@
         </value>
     </Operation>
 
-    <!-- HSK: strip thingCategories from now-non-minifiable Ancient Dismantling Workbench
-         (Player.log warning surfaced once the minifiedDef IsNull patch above started
-         working: "is not minifiable yet has thing categories").
-
-         Same inheritance trap as minifiedDef: thingCategories is inherited from
-         ParentName="BenchBase" (vanilla Core_SK), not declared inline. PatchOperationRemove
-         on /thingCategories therefore silently fails to find a node. Use PatchOperationAdd
-         with Inherit="False" to inject an empty list that drops the inherited entries. -->
+<!-- HSK: strip thingCategories from now-non-minifiable Ancient Dismantling Workbench -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="AM_AncientDismantlingWorkbench"]</xpath>
         <value>

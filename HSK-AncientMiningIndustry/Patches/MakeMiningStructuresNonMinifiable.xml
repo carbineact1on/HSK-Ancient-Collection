@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Make all AMI mining structures non-minifiable.
-
-    Sets <minifiable>false</minifiable> on every AMI building so they
-    cannot be picked up via the Uninstall gizmo. To relocate, the player
-    must Deconstruct (recovers ~75% of costList materials) and rebuild
-    elsewhere with fresh materials.
-
-    Pairs with MakeMiningStructuresLootOnly.xml (which removes them from
-    the architect menu): together you can find them in mining ruins,
-    deconstruct to recover materials, but cannot just pocket them via
-    uninstall to move around.
-
-    Affects all 11 AMI buildings: Drilling Rig, Tunnel Boring Machine,
-    Ore Dressing Machine, Mineral Conveyor, Mineral Outlet, Tunnel
-    Structural Supports, Electrical Equipment, Mini Shotgun Turret,
-    rails + crossties.
--->
+<!-- Make all AMI mining structures non-minifiable -->
 <Patch>
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig" or defName="BreadMoAM_TunnelBoringMachine" or defName="BreadMoAM_OreDressingMachine" or defName="BreadMoAM_MineralConveyor" or defName="BreadMoAM_MineralExports" or defName="BreadMoAM_TunnelStructuralSupport_a" or defName="BreadMoAM_TunnelStructuralSupport_b" or defName="BreadMoAM_ElectricalEquipment" or defName="BreadMoAM_Turret_ShotgunTurretN" or defName="BreadMoAM_Crosstie" or defName="BreadMoAM_Rail"]/minifiedDef</xpath>

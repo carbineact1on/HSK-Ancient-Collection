@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Make all Ancient Mining Industry structures deconstructable-only.
-
-    Removes <designationCategory> at the right level:
-      - Mining facilities (Drilling Rig, Tunnel Boring Machine, Ore Dressing,
-        Mineral Conveyor/Outlet, Tunnel Supports, Electrical Equipment) inherit
-        designationCategory from abstract parent BreadMoAM_MiningFacilities -
-        we strip from the parent so all children become hidden.
-      - Mini Shotgun Turret has its own designationCategory in Buildings_Security_Turrets.xml
-      - Rails/Crossties have their own in Railway.xml
-
-    Buildings still:
-      - Spawn inside AMI scenarios (mining ruins / industrial wreckage)
-      - Function normally if found intact (drills produce ore, etc.)
-      - Drop materials from <killedLeavings> when destroyed in combat
-      - Yield ~75% of costList when peacefully deconstructed
--->
+<!-- Make all Ancient Mining Industry structures deconstructable-only -->
 <Patch>
     <!-- Strip designationCategory from abstract parent (cascades to all 7 mining facilities) -->
     <Operation Class="PatchOperationRemove">
