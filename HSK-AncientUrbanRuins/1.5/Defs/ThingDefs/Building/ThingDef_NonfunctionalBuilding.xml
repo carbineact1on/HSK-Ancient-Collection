@@ -80,7 +80,7 @@
 			<ChunkSlagSteel>3</ChunkSlagSteel>
 		</killedLeavingsRanges>
 		<researchPrerequisites>
-			<li>Fortifications</li>
+			<li>AM_RecyclingAssembly</li>
 		</researchPrerequisites>
 	
 	</ThingDef>
@@ -306,7 +306,7 @@
 			<ChunkSlagSteel>2~3</ChunkSlagSteel>
 		</killedLeavingsRanges>
 		<researchPrerequisites>
-			<li>Fortifications</li>
+			<li>AM_RecyclingAssembly</li>
 		</researchPrerequisites>
 	
 	</ThingDef>
@@ -340,7 +340,7 @@
 			<ChunkSlagSteel>3~4</ChunkSlagSteel>
 		</killedLeavingsRanges>
 		<researchPrerequisites>
-			<li>Fortifications</li>
+			<li>AM_RecyclingAssembly</li>
 		</researchPrerequisites>
 	
 	</ThingDef>
@@ -374,7 +374,7 @@
 			<ChunkSlagSteel>1~2</ChunkSlagSteel>
 		</killedLeavingsRanges>
 		<researchPrerequisites>
-			<li>Fortifications</li>
+			<li>AM_RecyclingAssembly</li>
 		</researchPrerequisites>
 	
 	</ThingDef>
@@ -408,7 +408,7 @@
 			<ChunkSlagSteel>1</ChunkSlagSteel>
 		</killedLeavingsRanges>
 		<researchPrerequisites>
-			<li>Fortifications</li>
+			<li>AM_RecyclingAssembly</li>
 		</researchPrerequisites>
 	
 	</ThingDef>
